@@ -1,6 +1,6 @@
 # *Managing Python Dependencies With pip and Virtual Environments* — Course Supporting Materials
 
-[![Managing Python Dependencies Welcome Video]](https://training.talkpython.fm/courses/explore_python_dependencies_course/managing-python-dependencies-with-pip-and-virtual-environments)
+[![Managing Python Dependencies Welcome Video](https://raw.githubusercontent.com/mikeckennedy/managing-python-dependencies-materials/master/images/video.png)](https://training.talkpython.fm/courses/explore_python_dependencies_course/managing-python-dependencies-with-pip-and-virtual-environments)
 
 *Managing Python Dependencies* is an organized, step-by-step system for mastering the tools and workflows that will help you reach the next level of productivity as a Python developer.
 
