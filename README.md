@@ -1,8 +1,8 @@
-# *Managing Python Dependencies With pip and Virtual Environments* Course Supporting Material
+# *Managing Python Dependencies With pip and Virtual Environments* — Course Supporting Materials
 
 [![Managing Python Dependencies Welcome Video](https://raw.githubusercontent.com/dbader/managing-python-dependencies-materials/master/images/video.png)](https://www.youtube.com/watch?v=8TiCmhwi8dY)
 
-Managing Python Dependencies is an organized, step-by-step system for mastering the tools and workflows that will help you reach the next level of productivity as a Python developer.
+*Managing Python Dependencies* is an organized, step-by-step system for mastering the tools and workflows that will help you reach the next level of productivity as a Python developer.
 
 It is a course consisting of 32 bite-sized video lessons, each focusing on a single concept.
 
@@ -28,22 +28,22 @@ With *Managing Python Dependencies* you will:
 
 * **Become more valuable as an employee and team member**: With my detailed 7-step workflow for researching quality Python packages you’ll know how to document and justify added program dependencies to your team and your manager. By taking on more responsibilities and picking up these senior-level "architectural" skills you’ll rise head and shoulders above other devs stuck at the "code monkey" level.
 
-## What topics will we cover?
+## What Topics Will We Cover?
 
 Managing Python Dependencies is your “one-stop shop” for learning how to use modern dependency management practices and workflows with minimal time investment.
 
 Here's an overview of the course contents:
 
-* **Module 1 -- Welcome &amp; Course Overview**
-* **Module 2 -- Managing Third-Party Dependencies With Pip**
-* **Module 3 -- Isolating Dependencies With Virtual Environments**
-* **Module 4 -- Finding Quality Python Packages**
-* **Module 5 -- Setting Up Reproducible Environments &amp; Application Deploys**
-* **Module 6 -- Course Conclusion and Recap**
+* **Module 1 – Welcome & Course Overview**
+* **Module 2 – Managing Third-Party Dependencies With Pip**
+* **Module 3 – Isolating Dependencies With Virtual Environments**
+* **Module 4 – Finding Quality Python Packages**
+* **Module 5 – Setting Up Reproducible Environments & Application Deploys**
+* **Module 6 – Course Conclusion and Recap**
 
 [Click here to see the full course table of contents](https://dbader.org/products/managing-python-dependencies/).
 
-## Who is this course for?
+## Who Is This Course For?
 
 * **This course is for Python developers** wanting to break through to the next phase of developing code by becoming more efficient, productive, and skilled using Python's rich library ecosystem.
 
