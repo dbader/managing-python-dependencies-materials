@@ -63,4 +63,4 @@ Here's an overview of the course contents:
 
 ## Join the course
 
-### » [https://training.talkpython.fm/courses/explore_python_dependencies_course/managing-python-dependencies-with-pip-and-virtual-environments](https://training.talkpython.fm/courses/explore_python_dependencies_course/managing-python-dependencies-with-pip-and-virtual-environments) «
+### » [Managing Python Dependencies at Talk Python Training](https://training.talkpython.fm/courses/explore_python_dependencies_course/managing-python-dependencies-with-pip-and-virtual-environments) «
