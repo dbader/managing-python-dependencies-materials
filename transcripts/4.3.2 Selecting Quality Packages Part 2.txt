@@ -1,0 +1,227 @@
+00:01 Not all Python packages are going to have a dedicated project homepage. 
+00:04 But what every project should have is some form of readme file, 
+00:09 that introduces you to the project. So I always check those two. 
+00:13 And what I like to see here, is that 
+00:16 I want the readme to cover the basics of the project, 
+00:19 what does the library do, and how do I install it. 
+00:23 You could learn a lot about the quality of a library,
+00:25 by looking at how the maintainers communicate the value that the library provides, 
+00:30 I also want to know what license the project is under, 
+00:33 because that could really influence in what circumstances 
+00:36 you can actually use the project and then, it makes sense to quickly check 
+00:40 who the author is, is it a group of people,
+00:43 is it a company, is it an individual contributor, 
+00:46 what have they done in the past, and do they seem trustworthy? 
+00:49 Let's take a look at a real project readme now. 
+00:53 Alright, I am going to try and find the readme file for the Reqests library now. 
+00:57 So, typically, what you'd be looking for is a link to the project source repository 
+01:02 so it already looks like this is hosted on github here, 
+01:05 so I am just going to look for a link.
+01:09 Alright, there we go, requests at github, 
+01:12 so that should be the link to the github project 
+01:14 where we can check out the project readme, yes, this is it, 
+01:16 so when I scroll down this is where github displays the readme file, 
+01:19 and for other source control websites like bitbucket, 
+01:22 they will either display the readme in the same fashion 
+01:25 or you can view it by finding the readme file and then clicking directly on that. 
+01:29 Now the first thing that I can see here is that this looks really similar 
+01:32 to the project homepage which isn't a bad thing, 
+01:35 I mean, this contains all of the information that I wanted to get out of the readme 
+01:38 and it looks like it's really well structured and nicely formatted. 
+01:41 So this is great, this tells me how to install the library, and it looks really simple, 
+01:46 it's pointing me to the documentation 
+01:48 and it also tells me how to contribute to the project. 
+01:52 If you're wondering what should go into a great readme file, 
+01:54 I wrote this article a while ago,
+01:56 about how you can write a great readme for a github project, 
+01:59 I am covering a number of things here that in my opinion 
+02:01 should go into a great readme, for example, it should talk about 
+02:05 what the project actually does, how to install it, 
+02:07 some example usage, how someone could set up a development environment,
+02:11 some link to a change log, and then also license and author info, 
+02:16 you can check out the full article in the link that you see here. 
+02:24 Now let's go back to the requests readme file. I said that I'd like to know 
+02:28 under which license a library was published, so let's find that out now. 
+02:31 Usually where you can find that information is in a license file, 
+02:34 at the root of the repository. 
+02:37 So this tells us that requests is under the Apache license, 
+02:39 a popular open source license; if you're wondering 
+02:42 what the most common open source licenses are, 
+02:44 and what their terms are there is a really great website you should check out. 
+02:48 Go to choosealicence.com/licenses and they have great simple 
+02:54 and human readable explanations of the conditions and permissions 
+02:58 and limitations in the most popular open source licenses. 
+03:02 So for example, this is the Apache license used by Requests, 
+03:05 and this gives us a quick overview over the terms of the license, 
+03:09 without actually having to drill down into the nitty gritty details. 
+03:13 Another thing that I'd like to know is who the authors are, 
+03:17 who wrote a library. Now, typically, in an open source library, 
+03:21 you can find an authors file that will list all the contributors, 
+03:24 again here with Requests you can get a really quick overview 
+03:29 of who the core maintainers are, and then there was apparently 
+03:33 a whole bunch of people who have submitted patches over time, 
+03:36 and this is a great sign because it means you have a project leadership 
+03:39 and then you also have a large group of people who are dedicating patches 
+03:42 and contributions to the project. 
+03:45 We could also check out the github user account that hosts the Request library,
+03:49 and in this case, it's Kenneth Reitz and you can see that Kenneth has
+03:52 a number of very popular libraries in the Python space, 
+03:56 he is working for respectable and well known company 
+03:59 and these are all indicators that Requests is a really great library. 
+04:04 At the end of step 4, maybe the field has narrowed down a little bit further, 
+04:09 every Python library should have a good project readme, 
+04:12 and I find it helpful to familiarize myself with the licensing terms for the project,
+04:17 and the team of people working on or maintaining the library. 
+04:23 In step 5, you're going to make sure that the project is actively maintained. 
+04:27 In my mind, this is one of the most important quality indicators, 
+04:31 now how can you find out if a project is under active development, 
+04:35 usually a great way to find that information is to check out 
+04:39 the project change log and the update history. 
+04:42 You could either do that directly on PyPi 
+04:45 or by checking the project source repository,
+04:48 also on the source repository you can usually find a bug tracker for the project. 
+04:52 Now this can tell you a lot about how the project is being maintained. 
+04:57 Are there discussions going on, are there many open tickets for severe bugs? 
+05:02 If there are no tickets, than that is usually not a great sign either,
+05:05 because in my experience, any project that gets some traction, 
+05:08 has a flood of bug reports coming in; now I would recommend 
+05:12 that you skim through some of those bug reports, 
+05:15 just to make sure that there isn't some large problem with the project 
+05:18 that would affect your ability to use it properly. 
+05:20 Another piece of information you can find directly on the source repository 
+05:24 is when the last commit to the project happened. 
+05:27 Now you don't want to discount projects that do not have 
+05:30 a lot of development activity going on at the moment, 
+05:33 I'd rather pick a well seasoned project that is also well maintained 
+05:37 or at least not abandoned over one that's super maintained but also brand new, 
+05:43 because then you don't really know what the future holds, 
+05:46 maybe the project is going to get abandoned in a few months,
+05:49 and then you're stuck with it, whereas a seasoned library
+05:52 that still does its job properly but it's not getting a lot of feature updates, 
+05:55 could still be totally worth your while, there is nothing wrong 
+05:58 with an older library that does its job really well. 
+06:00 At the end of step 5, your list of candidates projects 
+06:03 will likely have narrowed down further and this is a good thing, 
+06:06 the more projects you can weed out, the easier it will be 
+06:09 to pick the perfect library for your usecase. 
+06:12 You are almost done here. In step 6, 
+06:16 you would spot check the source code of the project. 
+06:19 I always like to look under the hood 
+06:22 of a library that I am going to use in my own programs. 
+06:26 And usually, this is really easy to do if you're dealing with an open source project, 
+06:29 you just open the project repository website and browse around in the code a little bit.
+06:34 Here is what I like to see. 
+06:36 Does the code follow community best practices, 
+06:39 for example, does it have a consistent formatting style, 
+06:42 are there comments in the code, are there docstrings, stuff like that, 
+06:46 another hugely important topic for me is whether or not 
+06:50 the code has automated test coverage, in my mind, 
+06:53 a good quality Python package will always have an automated test suite. 
+06:57 Looking at the code will also give you a good idea 
+07:00 of how experienced the developers were who wrote the library; 
+07:03 often you can tell at a glance whether it was someone 
+07:06 who had a deep understanding of Python who wrote a library, 
+07:09 or if it was someone who was maybe coming from 
+07:12 an entirely different language background 
+07:14 and was just kind of told to write a Python library. 
+07:17 Now, this doesn't automatically mean disaster, 
+07:20 but it's still a really good quality indicator. In the end, 
+07:23 it all boils down to the question would you feel comfortable 
+07:26 making small changes to this library if you had to? 
+07:30 Because that is what the worst case scenario is. 
+07:33 Imagine you are building a really successful application 
+07:35 that is using a particular library and then 
+07:37 the original authors of the library stop maintaining it. 
+07:40 Well, if you don't want to give up your project,
+07:43 it will pretty much come down to you maintaining this library, 
+07:46 at least enough so you can use it for your own purposes. 
+07:49 This is something that I always try to keep in the back of my head 
+07:52 when I make a decision whether to use one library or another.
+07:55 Alright, let's take a look at what this looks like in practice. 
+08:00 So I am back here looking at the github repository for the Requests library. 
+08:05 And that gives me a really easy way to browse through the library source code, 
+08:08 so I don't even have to install it, I can just use the github code viewer 
+08:12 and browse around and I don't need to pull this over into my own editor. 
+08:17 So what I would do here is try and find the main directory 
+08:20 where all the source files live in, and in this case, 
+08:23 it's the requests folder so typically this would be named after the library, 
+08:27 and you can see here there is a bunch of Python files in there. 
+08:31 This seems pretty well structured already and you can also see
+08:34 there is a lot of activity here so these are being updated all the time. 
+08:39 Now let's check out one of those files. 
+08:41 For example, the cookies.py file, that sounds tasty. 
+08:44 And I would just spend some time reading that code, 
+08:47 so things that I immediately like here is that there is docstrings, 
+08:50 the imports are nicely formatted, you can see here 
+08:54 the classes seem like they are named properly, 
+08:58 again, there are extensive docstrings for everything, 
+09:02 this class here with these methods on it, they seem well structured, right, 
+09:09 there is not this crazy long like a thousand lines methods here. 
+09:13 This is all pretty nice and tidy and when I scroll further through the file, 
+09:17 it all just seems like it's following a structure and it's formatted in the way 
+09:24 that makes it easy on the eyes, and that is usually a really good sign, 
+09:28 like imagine you have to maintain this code, 
+09:31 personally I would much rather work with code that looks like this, 
+09:34 than some convoluted mess. 
+09:36 And you can see here it seems to adhere to the pep8 formatting style 
+09:40 which I think is also a good sign 
+09:42 because if you are also using pep8 or something similar, 
+09:45 than this library code is going to look similar to your application code, 
+09:47 which also helps maintenance. 
+09:52 Yeah, so I would say this looks pretty good, let's see if we can find some tests. 
+09:57 Okay, so there is a tests folder here, and again, 
+10:04 it looks like there are whole bunch of tests here, 
+10:06 so let's check out the test_structures, alright, 
+10:10 so they are using py test which is a library that personally I like a lot 
+10:13 so this would be a good sign for me, first of all I love the fact 
+10:18 they have an automated test suite here and just glancing over those tests, 
+10:26 I mean, they seem pretty reasonable, right, 
+10:30 they seem like they are actually testing stuff, they are not just placeholders
+10:33 or dummy tests they are actually doing some things. 
+10:36 Now, usually I wouldn't do like a full code review for a library that I want to use, 
+10:41 but I just want to do some spot checking to get an idea 
+10:45 of the code quality for that library, because, in the worst case scenario
+10:49 I might actually have to do some maintenance work on this library, 
+10:52 if someone stops maintaining it and it's an important part of my own application, 
+10:56 then I would be pretty much responsible for keeping this thing alive 
+11:00 so that I can continue to use it. 
+11:03 So this is always something that is in the back of my head; 
+11:06 of course, Requests here passes that test with flying colors, 
+11:09 and seeing how popular that library is, it's probably going to be maintained 
+11:12 for a really long time so I wouldn't be too worried about this, 
+11:15 but, of course it helps that it has great code quality too. 
+11:19 Okay you made it all the way to step 7, and this is the last step in this workflow. 
+11:26 So at this point, you would have a much narrow down list of candidates, 
+11:31 and now it's time to try out a few of them. 
+11:33 So at this point, I would go over my notes and my memories,
+11:36 and take this narrow down list of candidates and just start installing 
+11:39 some of them to try them out, in an interpreter session, 
+11:44 and I am always suing a fresh virtual environment for that 
+11:46 so that I am not cluttering up my system. 
+11:48 I would encourage you to do the same, and then you can just launch 
+11:51 into an interpreter session, import the library, and play with it a little bit. 
+11:55 Or you might write a couple of small programs 
+11:58 just to get a feel for how the library works, 
+12:01 so for example, with Requests, maybe I would write a little program 
+12:05 that downloads a file over http and then I would try and implement 
+12:09 the same example with a different library to get a feel 
+12:12 for what the strength and weaknesses are of each of them. 
+12:16 Now actually, installing the library and then trying it out is 
+12:19 going to tell you something very important; it's going to tell you 
+12:22 whether the package installs and imports cleanly, because, 
+12:26 at the end of the day that is super important, even if you have the best library 
+12:30 for your purpose and it's so painful to install 
+12:33 or it doesn't work on your system, then that is not going to help you. 
+12:37 So I always make sure to actually get some hands on experience 
+12:40 with my top 3 choices or so, so that I can be confident into decision that I make. 
+12:45 Another very important question is 
+12:47 whether or not you enjoy working with the package. 
+12:50 I strongly believe that developers should use tools that they enjoy working with, 
+12:53 and this also applies to third party packages and modules and libraries. 
+12:57 So for me, this would always factor into the decision, 
+13:02 now I realize that there might be business constraints 
+13:04 and sometimes you just have to work with something 
+13:06 that you are not enjoying as much. 
+13:08 But if there is a way to get the best of both worlds, 
+13:11 a really great library that is actually fun to work with, 
+13:13 I would always pick the one that is fun to work with and gets the job done. 

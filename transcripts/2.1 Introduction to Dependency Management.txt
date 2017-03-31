@@ -1,0 +1,55 @@
+00:01 You might have heard the term dependency management 
+00:04 in combination with Python packaging. 
+00:06 What is dependency management, and what do you need it for? 
+00:09 So most real world programs that you are going to write 
+00:12 and that you are going to encounter are likely to use 
+00:15 third party libraries and frameworks. 
+00:18 These frameworks that the program uses and that the program requires 
+00:23 to function are called dependencies, so here is an example.
+00:26 Let's say you are working on a project called "my program" and to do its job,
+00:31 my program actually relies on two other packages, 
+00:35 and so my program would enlist these other dependencies 
+00:39 and use those other packages and other libraries to get the job done. 
+00:44 So maybe you don't want to reimplement some function like HTTP downloads 
+00:49 and you program would just use that in a library 
+00:52 and these packages super library and other dependency, 
+00:55 they would be called dependencies of my program in this case. 
+00:59 Of course, not only can your programs have dependencies, 
+01:05 but the dependencies of you programs can have dependencies again, 
+01:10 and so on, and this is what we refer to as transitive dependencies, 
+01:14 or you could also think of them as dependencies of dependencies 
+01:17 or secondary dependencies. 
+01:20 So let's take a look at our "my program" example. 
+01:24 So in this case, we said my program has two direct dependencies 
+01:27 and that will be "super library" and "other dependency", 
+01:31 now what you can see here is that "super library" and "other dependency" itself,
+01:36 actually have dependencies again, 
+01:38 and some of the dependencies of those dependencies, have dependencies again. 
+01:43 So this is a whole tree of dependencies. 
+01:46 On the one hand, having this flexibility is great 
+01:49 because it allows us to abstract away all kinds of functionality 
+01:52 and then make that available to other programs and other libraries, 
+01:56 so that the community of Python developers can build 
+01:59 increasingly powerful libraries and programs and frameworks. 
+02:03 But on the other hand, I am sure you're starting to see
+02:06 why managing dependencies manually is so difficult, it's super time consuming, 
+02:11 copying and pasting source code makes updating really difficult, 
+02:16 imagine you downloaded some file off the internet, some Python source code 
+02:20 that you're including in your project, 
+02:23 what happens if you want to update that file- 
+02:26 maybe a new version came out or the author released a new version, 
+02:29 and you want to include that in your program 
+02:31 to make use of some awesome new features. 
+02:33 Now, if you have to manually copy and paste that around 
+02:36 it's very easy to make mistakes and it's kind of hard to understand 
+02:39 what the real dependencies of a program are. 
+02:42 So if you are sending that over to a co-worker 
+02:45 or you want to publish that program on the internet, 
+02:47 it becomes very hard for everyone else to actually understand 
+02:50 what dependencies they would need to install 
+02:53 in order to get your program to run. 
+02:57 The solution to all of these problems is of course, more software; 
+03:00 You know, I am joking here, but, there is software 
+03:04 that can make your life a little bit easier 
+03:06 when it comes to dependency management, 
+03:08 and this software is typically referred to as package managers.

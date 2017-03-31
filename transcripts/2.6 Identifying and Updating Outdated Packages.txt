@@ -1,0 +1,30 @@
+00:01 Another benefit of using a package manager is that 
+00:04 you can keep your packages and dependencies up to date.
+00:07 Pip can identify outdated packages that have new versions available 
+00:10 and then also upgrade them to the latest version. 
+00:13 Let me show you how that works now. 
+00:16 I am going to set up some kind of demo scenario we can work with here. 
+00:19 So what I am going to do is I am going to install 
+00:21 an older version of the Requests library 
+00:24 so that we can then go ahead and upgrade it. 
+00:32 So I just installed Requests 2.0 which is 
+00:35 an older version of Requests at this moment. 
+00:38 What I am going to do next is I am going to ask pip to identify outdated packages; 
+00:47 you can do that with the familiar pip list command,
+00:50 and by adding a --outdated switch to it, 
+00:54 so when I run this, it tells me exactly which packages 
+00:58 that I have currently installed are outdated and what the latest version is. 
+01:02 So in this case, I can tell that there is a newer version of Requests available. 
+01:06 Now, let's upgrade Requests to the latest version. 
+01:10 Again, I am using the pip install command, 
+01:13 but this time I am passing it a --upgrade switch. 
+01:19 And then I need to tell it which library to upgrade, 
+01:23 so in this case, it will be Requests. 
+01:27 this will first uninstall the outdated version of Requests, 
+01:31 and then install the latest version. 
+01:38 By the way, you could get the same results with the -u switch, 
+01:42 so that is just a shortcut for a --upgrade if you want to save some typing.
+01:52 Let's make sure we actually upgraded to the latest version of Requests. 
+01:56 I am going to run this pip list command with the --outdated switch again. 
+02:02 Alright, this time, there are no more outdated dependencies, 
+02:05 and I just successfully upgraded Requests to the latest version. 

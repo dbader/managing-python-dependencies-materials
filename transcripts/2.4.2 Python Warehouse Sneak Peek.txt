@@ -1,0 +1,38 @@
+00:01 You just saw the PyPi package repository. 
+00:03 And while PyPi is the official package repository for Python right now, 
+00:07 it is about to get superseded by Warehouse, which is going to be its successor. 
+00:13 So let's talk a little bit about Warehouse and how this transition is going to go.
+00:18 So Warehouse is going to replace PyPi eventually, but right now, 
+00:22 Warehouse is only running in a public beta testing mode. 
+00:27 The idea with transitioning PyPi to Warehouse is that ideally, 
+00:32 you wouldn't have to worry about the transition at all, 
+00:35 you would just use your pip commands as you did before, 
+00:38 but instead of downloading files from PyPi,
+00:40 they would actually find and download packages from Warehouse. 
+00:44 Now, let's take a quick look at Warehouse. 
+00:47 Like I said, Warehouse is available for a public beta access right now, 
+00:52 and you can find it at pypi.org. 
+00:55 Okay, so let's take a look at Warehouse, PyPi's successor. 
+01:00 So we get this banner here that tells us this is a beta version, 
+01:03 or a pre production version of Warehouse, and eventually
+01:07 that warning is going to go away, as Warehouse takes over, 
+01:11 and you can already see here the website looks a little bit more friendly 
+01:15 than the classic PyPi, but in terms of functionality it is very similar. 
+01:20 So again, I am just going to search for Requests here, and in this time, 
+01:25 you can see that the search results are actually a little bit better, 
+01:29 so they look a lot nicer, and they seem to be more relevant, 
+01:32 so in this case Warehouse seems to know that hey, 
+01:35 there is a package called Requests and it is the most popular one 
+01:38 so it actually is number one search result here, so let's take a look. 
+01:44 Again, you get a mixture of the readme or description for the package, 
+01:49 and then a bunch of metadata, and it's just presented to you 
+01:52 in a much more friendly way and there is also this little hint on how you would go
+01:56 about installing this package for example which is nice, 
+01:59 and it looks like they also got the image formatting issue under control.
+02:03 So now, all of the package metadata lives on the left here, 
+02:07 so again, you pretty much have the same categories 
+02:10 and the same information here, and then, when you scroll further down, 
+02:15 we're back at the change log and stuff like that. 
+02:19 So, all the information is still in here, it's just presented in a different way, 
+02:23 so Warehouse and PyPi are really similar, but Warehouse is just 
+02:26 a more modern iteration and a more friendly version of what PyPi used to be. 

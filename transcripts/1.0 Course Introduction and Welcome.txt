@@ -1,0 +1,55 @@
+00:01 Welcome to managing Python dependencies with pip and virtual environments.
+00:06 Dependency management and managing third party Python packages 
+00:10 is a super important topic for any professional Python developer. 
+00:14 In my experience, even if you begin with a simple question 
+00:19 like how do I install a third party Python package, 
+00:22 you can quickly go down a rabbit hole of other tools 
+00:25 and new questions that pop up, and it can quickly get overwhelming. 
+00:29 This course will be your one-stop shop 
+00:32 for becoming proficient at dependency management with Python. 
+00:35 Let's take a look at the course goals. 
+00:38 By the end of the course, you will know how to install, use and manage 
+00:45 third party Python packages with the pip package manager; 
+00:49 you will know how to isolate your project dependencies 
+00:52 with so called virtual environments; 
+00:55 you will know a complete workflow for finding and identifying 
+00:59 quality third party packages that you can use in your own Python projects. 
+01:04 You will also know how to set up repeatable development environments 
+01:07 and application deployments with a complete workflow
+01:10 for that using requirements files. 
+01:13 If you're wondering who the disembodied voice inside your computer is, 
+01:19 hey that is me, Dan Bader, I am a complete Python nut 
+01:24 and I would love to help you improve your Python skills. 
+01:27 I started writing code when I was eight years old and was hacking away 
+01:30 on my Commodore 64, and I never stopped since. 
+01:34 Programming is a complete passion for me 
+01:37 and I eventually got a bachelor's and master's degree in computer science.
+01:40 I worked in full time positions for a few years, 
+01:43 first as a software engineer, and then later as a lead developer 
+01:46 and today I am an independent software developer and consultant, 
+01:49 I run a number of Python projects and I've also been a speaker 
+01:53 at various conferences around the world. 
+01:56 If you want some more Python learning resources, 
+01:58 check out my website at dbador.org 
+02:01 I've got tons more tutorials and videos that will help you master Python.
+02:05 Alright, enough about me, let's take a look at the course curriculum. 
+02:08 Right now, you're in the first module on the course 
+02:12 "The welcome and course overview" module. 
+02:15 Every time I show you the course curriculum, 
+02:18 I will always highlight in bold text where you are at the moment. 
+02:21 So next up you'll dive into "Managing third party dependencies with Pip" 
+02:26 and then after that, you'll learn how to isolate your project dependencies 
+02:31 with virtual environments. 
+02:33 In the fourth module, you'll learn a complete workflow 
+02:36 for finding and researching quality Python packages. 
+02:39 Next, you'll learn how to set up reproducible environment and application deploys. 
+02:44 And finally, in the sixth module 
+02:48 there will be the course conclusion and a quick recap. 
+02:51 That is the course curriculum. 
+02:54 Now, this will be a really practical course, 
+02:57 in each module you'll encounter a mixture of slight base presentations 
+03:01 and hands on life demos, so you can see and follow along with the exact workflows
+03:07 that I used to research and find Python packages 
+03:10 or to manage dependencies in my own Python projects. 
+03:16 Well, congratulations, you've just completed the first module in the course. 
+03:20 Time to jump in and learn about managing third party dependencies with pip. 

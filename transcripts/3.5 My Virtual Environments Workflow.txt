@@ -1,0 +1,51 @@
+00:00 There are a few command line tricks you can use 
+00:03 to make your life easier when you're working with these virtual environments. 
+00:06 So I want to show you a quick walkthrough the virtual env setup 
+00:10 or the virtual env workflow, that I use personally for working on Python projects. 
+00:15 So I am in a fresh terminal session here and let's pretend I want to work
+00:20 on a project called test project, the one we created earlier. 
+00:24 So the first thing I would do is to switch into the project folder, 
+00:28 and then I have this alias command here in my shell that I called ae 
+00:32 for activate, and I can use that to super quickly activate virtual environment
+00:38 without having to type out this source command. 
+00:42 So I am going to run this, and what this does is
+00:45 it's automatically activating the virtual environment because 
+00:48 I use this naming convention, where I just call all of my virtual environments venv, 
+00:53 so the command is just going to look for venv virtual environment, 
+00:57 and it's going to activate it. 
+01:00 Next, I would do my actual work on the project, 
+01:03 run my tests, work with the Python interpreter, run the actual project, 
+01:07 and then when I am done with the project, I would just type de for the deactivate 
+01:12 and that deactivates the virtual environment. 
+01:15 I am going to show you how these aliases work, in a minute. 
+01:18 There is one more thing I wanted to show you first though. 
+01:21 And that is how they allow me to quickly switch between different virtual environments. 
+01:25 So I am going to activate the virtual environment for test project again. 
+01:29 And now let's imagine I wanted to switch and work on a different project 
+01:34 with its own virtual environment, so I am here now in the different project folder,
+01:39 and now I would need to switch to its new virtual environment. 
+01:43 And this project's virtual environment uses the same naming convention, 
+01:47 so now I can just go ae again and what that is going to do, 
+01:51 is it's going to deactivate the previous virtual environment 
+01:54 and then activate the new one. 
+01:56 So I don't have to type deactivate first, and then of course,
+02:00 I could do m work and just deactivate the virtual environment again. 
+02:04 So I am using these ae and de shortcuts or aliases to make it a little bit easier 
+02:09 to work with virtual environments from the command line. 
+02:12 And now I am going to show you how those work behind the scenes. 
+02:15 So what I have done here is I've modified the config file from my shell, 
+02:20 I am using bash so this would be bash profile. 
+02:23 And I've added these two lines here, that configure an ae and a de alias.
+02:28 Here is what the ae alias does. 
+02:32 It tries to deactivate any virtual environments that I am already in, 
+02:35 and then it sources the activate script in the local venv folder, 
+02:41 so if I am using the same naming convention for my virtual environments, 
+02:44 this will just work every single time I am working on a project. 
+02:47 And the de alias just points to deactivate 
+02:50 which is going to save me some typing in the long run. 
+02:53 So the usage for this is really easy, I just switch to a project folder, I punch in ae, 
+02:58 hit return, then I can work on the project and when I am done, 
+03:01 I just type de and I leave the virtual environment. 
+03:04 And this makes working with virtual environments just a little bit smoother 
+03:08 so this is something you could try out and see 
+03:11 if you want to incorporate that into your own workflow. 

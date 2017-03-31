@@ -1,0 +1,24 @@
+00:01 Another important aspect that I would like to cover is 
+00:04 how to leave a active virtual environment, 
+00:07 and then also how to switch between different virtual environments. 
+00:11 So again, I am going to jump to the terminal for this. 
+00:14 Alright, so I am back in my example project, inside an active virtual environment. 
+00:19 Now, how do you get back to the global environment
+00:22 if you are inside an active virtual env? 
+00:25 And the answer for that is pretty easy, you just run the deactivate command. 
+00:28 So the deactivate command is available every time 
+00:32 we're working in an active Python virtual environment, 
+00:35 the global environment does not support this deactivate command. 
+00:39 Now you can see here that when I ran the deactivate command, 
+00:43 it actually removed this little marker here, from my shell prompt, 
+00:47 so now I can tell that I am back in the global environment. 
+00:51 One more thing I wanted to mention is how do you actually switch 
+00:54 between different virtual environments if you are working with multiple projects 
+00:57 so right now I am still in this virtual environment for my test project here, 
+01:04 and what I am going to do here is I am going to leave that environment 
+01:07 and then I am going to go to a different 
+01:10 project folder that also has a virtual environment, 
+01:13 and here, I would just use the same activate command 
+01:16 to switch into that virtual environment and then start working from here. 
+01:20 And it's a good idea to deactivate or leave an active virtual environment 
+01:25 before you go and activate or enter a new environment. 

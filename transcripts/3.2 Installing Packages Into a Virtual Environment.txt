@@ -1,0 +1,23 @@
+00:00 So next up, I am going to show you how to install packages into a virtual environment. 
+00:04 And for that, we're going to jump back into termianl session again. 
+00:07 So I am in the same project folder as before, 
+00:10 and I am inside an activated virtual environment. 
+00:13 So what I am going to do now is I am going to use the pip command 
+00:16 to install the popular Requests library. 
+00:23 Now, when I run the pip list command you can see here 
+00:26 that I successfully installed this Requests package,
+00:29 and that the environment I am using here is pretty much empty besides that. 
+00:34 So there is some other stuff in here for example, the setup tools, 
+00:37 module or the pip module, but these are really just part of the core Python install.
+00:42 So, this is nice, this is exactly what we wanted, 
+00:46 we're not cluttering up the global install here, 
+00:49 and just to make sure this actually works, 
+00:51 I am going to jump into a Python interpreter session 
+00:54 I am going to go ahead and I am going to import the Requests module 
+00:57 and I am going to fire off a simple http request
+01:02 Alright, so this worked just fine, 
+01:05 so you just saw how to install a new module inside of the virtual environment, 
+01:08 it's really similar to the way you would install a package 
+01:11 inside the global environment, but the big difference this time is 
+01:14 that everything is kept nice and separate 
+01:17 and we're not cluttering up your global Python environment with this here. 

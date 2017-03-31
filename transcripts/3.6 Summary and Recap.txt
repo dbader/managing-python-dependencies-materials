@@ -1,0 +1,20 @@
+00:01 Congratulations on completing the virtual environments module in the course. 
+00:04 Here is what you covered. 
+00:06 You learned what virtual environments are, 
+00:08 you learned how to create and activate them, 
+00:10 you learned how to install packages into a virtual environment. 
+00:14 And you've also learned how to deactivate 
+00:16 and even destroy a virtual environment. 
+00:18 And last, I showed you some tricks 
+00:21 on how you can optimize your virtual environment workflow 
+00:24 and make it a little bit more efficient. 
+00:26 In the last few lectures you learned about virtual environments 
+00:28 and how they can help you keep your project dependencies under control. 
+00:32 Virtual environments help keep your project dependencies isolated
+00:37 so that you can avoid version conflicts between packages 
+00:40 and different versions of the Python runtime. 
+00:43 So in a nutshell, a virtual environment allows you to use 
+00:46 different versions of the same package, 
+00:48 and different versions of Python depending on a project that you're working on.
+00:54  And as a best practice, all of your Python projects 
+00:57 should use virtual environments to store their dependencies. 

@@ -1,0 +1,34 @@
+00:01 What do you do if you've installed the Python package, 
+00:04 but you want to uninstall it and completely remove it from your system? 
+00:07 For example, if you've installed a package just to try it out how do you undo that, 
+00:11 how do you uninstall the package? Let's talk about that now. 
+00:15 You can uninstall packages and remove them from your system 
+00:18 using the pip uninstall command, 
+00:21 this command is really similar to the pip install command, 
+00:24 you just go pip uninstall and the name of the package 
+00:27 and pip will remove the package from your system. 
+00:30 Here is a quick demo; you can see here that I've got the Requests package installed. 
+00:34 Let's remove it. 
+00:39 Once I triggered the uninstall command, 
+00:42 pip is going to ask me if I really want to remove this package, 
+00:45 so at this point I can still cancel the process, 
+00:47 and no change will be made to my system, 
+00:49 so I am going to go yes here, and hit return, 
+00:52 alright, and that's it, you successfully uninstalled Requests.
+00:55 Let's make sure it's actually gone. 
+00:59 As you can see, Requests no longer shows up in this list of installed packages. 
+01:05 You just saw how uninstalling a package through pip removed the package itself.
+01:11 However, the question remains whether that also removes dependent packages, 
+01:17 or in other words, will uninstalling a package also remove 
+01:21 the secondary dependencies off this package, 
+01:24 and the answer is no, so pip uninstall will not uninstall secondary dependencies, 
+01:30 therefore, it isn't that easy to keep your Python environment nice and clean,
+01:34 this is why I recommend that you use virtual environments as much as possible, 
+01:38 there is a whole section in this course dedicated to virtual environments, 
+01:42 but in short, there are way for you to create new Python environments
+01:46 that are completely separate from your global environment, 
+01:49 so you can install packages without cluttering up your global Python environment. 
+01:54 And if you're using virtual environments then removing packages 
+01:57 and cleaning up all of the unneeded secondary dependencies is really easy, 
+02:03 you just delete the virtual environment and recreate it from scratch. 
+02:06 And this will get rid of all the unneeded secondary dependencies. 

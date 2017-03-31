@@ -1,0 +1,85 @@
+00:01 An important part of dependency management is of course 
+00:04 the ability to store packages somewhere 
+00:07 so that you or other people can install them. 
+00:10 Now, let's talk about Python package repositories. 
+00:14 Python packages are collected in so called software repositories. 
+00:18 The biggest, or official software repository in Python is called PyPi. 
+00:23 It's also sometimes called The Cheese Shop, 
+00:27 because Python developers just love their Monty Python references. 
+00:32 Developers can register for a free PyPi account 
+00:35 and then submit new packages to the repository. 
+00:39 And once a package appears in PyPi, everyone else can install it through pip, 
+00:43 so this is a really popular method to distribute open source Python packages, 
+00:47 and there are literally tens of thousands of packages available for free, 
+00:51 that you could just install through pip. 
+00:55 And by the way, there is no review or QA process for packages submitted to PyPi. 
+01:00 So whenever you install a package from PyPi, 
+01:03 it makes sense to invest some time into do diligence work 
+01:06 and reviewing what's available, so that you get a quality piece of software. 
+01:10 Let's search for some packages on PyPi. 
+01:14 We're going to take a look at the PyPi website now,
+01:17 and you can find it at pypi.python.org. 
+01:21 Lets fire up a browser and then take a look at the PyPi website. 
+01:26 Alright, this is PyPi, you can see some stats here so right now,
+01:31 they are close to a 100 thousand packages available here, on PyPi,
+01:35 and when you scroll down, you can see sort of a update log 
+01:39 of recently updated packages as people pushed them to the package repository 
+01:44 you can see here what was updated. 
+01:47 And of course, one of the most important parts of the site here is the search box. 
+01:51 So into the search box, you can enter keywords 
+01:54 and basically do a full tech search on the descriptions 
+01:58 and the metadata for the packages available on PyPi, 
+02:01 so you've probably heard of the really popular Requests package, 
+02:05 which is a HTTP download library, so I am going to go ahead 
+02:09 and search for Requests here. 
+02:12 Okay, so these are the search results for Requests, 
+02:15 and what is interesting here is that the actual Requests library
+02:18 that I was looking for, is not the number one search result, right,
+02:22 because this is just doing a search across all of the descriptions 
+02:25 and the metadata in all of the available packages. 
+02:28 So I get some very exhaustive results here, and you can see here 
+02:32 as I scroll down this is a really long list, because, 
+02:34 obviously the keyword Requests seems to be quite popular. 
+02:38 Alright, so I am going to go ahead and click on the Requests library here, 
+02:43 because, every package in PyPi actually has its own landing page, 
+02:48 so it has its own page on PyPi where the developers can host the readme 
+02:53 and give some links to the documentation or release history, and stuff like that. 
+03:00 So what you can see here is that right now 
+03:04 I am looking at the specific version of Requests, 
+03:06 and you can also see that reflected here in the url, 
+03:09 so this will be a pypi-name of the library-the version. 
+03:13 So this is handy if you ever want to link to a specific library 
+03:17 or a specific version of library, because you can just use that link. 
+03:20 This is the readme file or the description 
+03:24 that the creators of the Requests library have put together. 
+03:27 So the contents of this description here largely depend 
+03:31 on the information that the library creators put in. 
+03:36 Sometimes the formatting as it's displayed on the PyPi website isn't perfect, 
+03:39 so you are going to get these super blown up images here, just ignore that for now. 
+03:43 Actually, what I wanted to show you is when you scroll all the way down here, 
+03:49 there will always be the summary with metadata 
+03:55 about the package that you are looking at, 
+03:58 and this is often very useful if you want to find the homepage 
+04:01 for a specific project or if you want to identify its author 
+04:04 or if you are interested in the license that the code is under. 
+04:10 Then, also, you can see the categories the code is filed under, 
+04:14 or the library it was filed under, and then also what other dependencies 
+04:17 or secondary dependencies that library requires. 
+04:21 To me, the most useful information is usually these top 3 items here, 
+04:24 I want to know about the library author, 
+04:27 I usually take a look at the library home page 
+04:31 and then I also want to know what license the software is under. 
+04:34 And of course, you could also click through these categories here 
+04:37 and maybe find some interesting packages that way. 
+04:40 Okay, that's it for PyPi. 
+04:44 You can also search for packages from the command line, 
+04:47 using the pip search command. 
+04:49 Usually I would recommend that you stick with the PyPi website though. 
+04:53 The pip command doesn't really give you very much information 
+04:56 about those search results so it's just the package name 
+04:59 and then a very brief description, which can be useful 
+05:02 but as you've seen in the PyPi demo, oftentimes, 
+05:05 a single keyword can lead to many search results 
+05:08 so it's a little bit hard to untangle that from the command line 
+05:12 if you only have limited information available. 
+05:15 Nevertheless, that feature exists and it can be useful in a pinch. 

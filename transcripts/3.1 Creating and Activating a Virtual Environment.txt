@@ -1,0 +1,83 @@
+00:01 I am going to jump into a terminal session now, 
+00:03 to show you how you can create and activate these virtual environments. 
+00:06 Alright, I'm in my terminal here and now 
+00:09 I am going to show you how to create your first Python virtual environment. 
+00:13 So, the first thing I want to demonstrate to you 
+00:16 is when I use the which command to look up where the pip executable is right now. 
+00:21 You can see here it's inside user local bin pip 3,
+00:25 which is the global shared environment. 
+00:28 Now if I would go ahead and run pip install and install some library, 
+00:31 it would end up, well, not exactly here in this folder, in the bin folder,
+00:36 but it would end up in the global environment. 
+00:39 So, the way around that is by creating a virtual Python environment. 
+00:44 Now let's assume we wanted to start a new Python project, 
+00:48 so probably create its own folder for that, 
+00:51 so I would create a directory let's call that test project, 
+00:56 switch into that test project, and you can see here that right now, 
+01:03 this is completely empty, so what I am going to do now is 
+01:06 I am going to create a virtual environment, with this command here, 
+01:11 so you want to go Python 3-m venv if you are on Python 3, 
+01:15 on Python 2 it's a little bit different but I am going to walk you through that later, 
+01:19 and then as the last argument here, you can pass the name of the folder 
+01:28 where you want to store that virtual environment, 
+01:31 or where you want that virtual environment to be created. 
+01:34 Now, personally, I use a very simple naming scheme, 
+01:36 I just create my virtual environments right inside the project folder, 
+01:40 and I usually call them venv.
+01:43 So, personally, I would do something like this, but of course, 
+01:47 you could also have a shared folder, like a Python environments folder, 
+01:51 where all of your Python environments live 
+01:54 and then you are going to be able to reuse them across different projects. 
+01:57 Now, personally, I don't recommend that, so this is what I like to do. 
+02:01 Okay, so this just took a second here to set up the virtual environment, 
+02:06 and now, when I check what is inside this folder, 
+02:09 we can see here that now we have this venv folder. 
+02:12 And when I check what is inside the venv folder, 
+02:14 you can see here that there is a bunch of files
+02:18 that are part of this new Python environment. 
+02:21 Now why don't we take a closer look at this venv folder? 
+02:24 So you can see here that there is a lot of stuff inside that folder, 
+02:28 because this is actually a completely isolated and separate Python environment. 
+02:32 Now this is not going to be very interesting, because, 
+02:35 it's just the Python internals here, but this should give you an idea
+02:39 that a Python virtual environment is actually 
+02:42 a completely separate Python environment, and that is exactly what we want. 
+02:45 Alright, so we created a virtual environment, 
+02:48 and if I were to run this pip 3 command, 
+02:52 or the pip command now, it would actually still point to the global environment, 
+02:56 so there is one more step we need to take here. 
+02:58 And that is we need to execute a script inside the virtual environment. 
+03:02 And, it's this one here, so inside the virtual environment, 
+03:05 you want to go into the bin folder and look for the activate script. 
+03:09 And so when I run this, this activates the virtual environment, 
+03:13 and you can see that here that running the script 
+03:16 out of this little marker here to my shell prompt, now it tells me that I am inside, 
+03:20 or that I have activated this virtual environment called venv. 
+03:24 So that is just a folder name that I used earlier. 
+03:28 Now, when I use this which pip command again, 
+03:31 you can see that now this is actually pointing to a different location, 
+03:35 so now this points to the separated and isolated environment that I just created. 
+03:41 And the same thing is true for the Python interpreter, 
+03:43 so now if I were to run the Python interpreter, it would actually load it 
+03:48 from inside the virtual environment and not from my global environment, 
+03:51 which is exactly what we want. 
+03:54 So this is how you create and activate the Python virtual environment, 
+03:57 so here is a quick recap on what I just showed you, so on Python 3.3 and above, 
+04:03 it's really easy to manage your virtual environments because the venv command, 
+04:09 or the venv module that manages them is actually part of the Python distribution, 
+04:14 so you can just use that Python- m venv 
+04:17 and then the name of the folder where you want to create that virtual environment. 
+04:21 But on older Python versions, it's a little bit different, 
+04:24 so for those versions of Python, you typically need to install 
+04:27 the virtual env package manually, and then you would use the virtual env command 
+04:32 and it would kind of follow the same syntax to actually create a virtual environment, 
+04:38 and you would activate it in exactly the same way. 
+04:41 So that is a little difference you need to be aware of, 
+04:44 maybe one extra step you need to take 
+04:46 before you can start creating your virtual environments. 
+04:48 On Windows, the step you need to take to actually activate a virtual environment 
+04:53 is slightly different, so we're not using the source command there,
+04:56 to load the activate script, but instead, we're just running 
+05:00 the activate command or activate script from the scripts folder, 
+05:05 so that is a small difference, but in all other aspects, 
+05:08 it's very similar to how it works on Linux and Mac OS. 

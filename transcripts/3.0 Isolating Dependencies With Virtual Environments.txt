@@ -1,0 +1,39 @@
+00:01 In this part of the course, you'll learn how to isolate your Python dependencies 
+00:04 using so called virtual environments. 
+00:07 Here is where you are right now in the course.
+00:11 And this is what you are going to cover in the upcoming module in the course. 
+00:17 You are going to learn about virtual environments, 
+00:20 what they are, how they work, and what they are good for. 
+00:23 Next, you are going to learn how to create 
+00:26 and activate a virtual environment on your system,
+00:29 after that, you're going to learn how to install packages into a virtual environment; 
+00:32 you'll also learn how to deactivate virtual environments 
+00:36 and how to completely delete them again. 
+00:39 And last, I am going to show you some tips in my personal workflow 
+00:42 that I use to make working with virtual environments a little bit more efficient. 
+00:46 Okay, ready? Let's jump right in! 
+00:49 So we just learned that Python has a powerful package management system. 
+00:53 What do we need that isolation for? 
+00:56 The thing is that by default, pip installs all packages in a single shared environment, 
+01:01 which means that if you need different versions of Python packages,
+01:05 there are going to be version conflicts. 
+01:08 Here is an example. Imagine you are working on two projects. 
+01:12 Project one needs a specific version of Django, let's say version 1.8, 
+01:17 and it also needs a specific version of the Requests library, let's say version 2.0. 
+01:22 Now, the other project, project 2, needs a completely different version of Django,
+01:28 and it also needs a different version of Requests. 
+01:31 Now if all of your packages need to be installed into the same shared environment, 
+01:36 there are going to be version conflicts between these packages. 
+01:40 Another kind of version conflict you might face is that 
+01:43 let's say you are working on one project that actually needs Python 2.7 to run, 
+01:48 and all of your new development happens in Python 3. 
+01:52 So, maybe you're working on another project 
+01:55 that actually requires Python 3.6 to run.
+01:58 How do you resolve these version conflicts? 
+02:02 Virtual environments are really helpful tool that can help you with this problem, 
+02:07 so a virtual environment allows you to isolate 
+02:10 all of your Python dependencies by project, 
+02:13 and this works for packages 
+02:15 and also for different versions of the Python interpreter. 
+02:18 So you can think of these virtual environments 
+02:21 as individual sand boxes for each project.

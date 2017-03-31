@@ -1,0 +1,29 @@
+00:01 Now what do you do once you're done with the virtual environment, 
+00:04 or you want to recreate it from scratch? How do you get rid of them? 
+00:07 Because, if you're working with virtual environments over time, 
+00:10 you are going to accumulate a couple of them, 
+00:13 if you're creating one per project, and so what do you do when you want 
+00:16 to get rid of these virtual environments to reclaim the space they take up? 
+00:20 I am going to show you how to do that now. 
+00:23 So we're going to delete an existing virtual environment here, 
+00:27 so right now, I am in this test project folder, 
+00:31 and I am inside and active virtual environment; 
+00:33 so in order to delete this virtual environment, 
+00:35 I would first of all deactivate the environment 
+00:40 so that we're back in the global environment, 
+00:42 and then all you need to do is delete this venv folder. 
+00:46 So, what I am going to do here is I am going to delete it 
+00:49 using the rem command and you always want to be careful 
+00:52 when you are running this command just as a word of warning, 
+00:55 because you can easily delete a bunch of stuff that maybe you don't want to delete. 
+01:00 So it might be easier for you to actually go into a file manager 
+01:05 and just to delete the venv folder there 
+01:08 if you absolutely want to make sure nothing can go wrong. 
+01:11 But I am going to go ahead here and I am just going to delete this folder, 
+01:14 and now you can see the project folder is empty 
+01:17 or I actually deleted this venv folder, which means now the virtual environment is gone, 
+01:21 it doesn't take up any space anymore and if I wanted to, 
+01:24 I could recreate a virtual environment under the same name 
+01:28 and then just repopulate again and configure it in the way I want. 
+01:31 So this is a great way to reset a virtual environment if something went wrong, 
+01:35 you just wipe it out completely, delete it and then rebuild it from scratch. 

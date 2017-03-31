@@ -1,0 +1,61 @@
+00:01 Now that you know how to capture dependencies using the pip freeze command, 
+00:05 let's talk about how you can take a requirements file 
+00:09 and restore the dependencies of a program.
+00:12 Early on I said that requirements files 
+00:15 are really just a bunch of pip install commands inside a text file, 
+00:19 and this is going to explain how we can take a requirements file
+00:23 and use it to reinstall all of the dependencies that are listed in it. 
+00:27 To do that, you need to call the pip install command 
+00:30 and use it with the -r command line flag 
+00:34 and then pass the name of the requirements file to it. 
+00:37 Let's take a look at how that works in practice. 
+00:40 So I am back in the previous directory that I used in the pip freeze example, 
+00:44 but I've recreated the virtual environment from scratch so that it's now empty again. 
+00:48 Running the pip list command shows that that's the case. 
+00:54 But this directory still includes the requirements.txt file 
+01:01 that I created the last time around, let's take a quick look at it. 
+01:05 So the requirements.txt file here lists all of the third party dependencies 
+01:09 that I used in the previous example, 
+01:12 now I am going to use the requirements.txt file 
+01:15 to reinstall all of these dependencies in their exact same versions listed here. 
+01:19 The command you need for that is pip install-r 
+01:24 and then you pass the name of the requirements file, 
+01:28 I am going to go ahead and run this now. 
+01:33 As you can see here, this went over 
+01:36 all of the requirements listed in the requirements.txt file 
+01:39 and reinstall them in the exact same versions I used before. 
+01:43 So now when I do a pip list you can see that this recreated 
+01:46 the environment I was using previously. 
+01:49 So this set of third party dependencies is an exact replica 
+01:53 of the ones that I used in the previous example 
+01:56 and I was able to restore them
+01:58 from the requirements file using the pip install command. 
+02:01 You just saw how you can restore Python dependencies, 
+02:05 using a requirements file and the pip install command, 
+02:08 let's do a quick review of the full workflow for capturing 
+02:11 and restoring Python dependencies using requirements files. 
+02:15 Really what this comes down to is a three step process. 
+02:18 The first step, happens during ongoing development 
+02:22 where you install necessary dependencies as you're working on your program. 
+02:26 For example, you might decide to install the Requests package 
+02:32 because you need to support http downloads in your program. 
+02:35 So you would just go ahead and do a pip install requests to install that package. 
+02:39 And when you're ready to deploy your program 
+02:42 or even if you just need to take a snapshot to send to git 
+02:45 or another version control system in order to share it with other developers, 
+02:49 then you move on to step 2 
+02:51 and you capture the dependencies inside a requirements file. 
+02:55 For that you would use the pip freeze command 
+02:57 and take its output and store it inside a requirements.txt file. 
+03:01 Now every time you want to deploy your program to another machine 
+03:05 or want to set up another development environment 
+03:07 on a different developers machine, 
+03:09 that is when step 3 comes into place, this is where we restore 
+03:13 the dependencies from the requirements file you created earlier, 
+03:16 for that, you would run the pip install command with the -r requirements.txt flag. 
+03:23 This installs or updates all of the dependencies 
+03:26 that were stored in the requirement's file in step 2. 
+03:29 Because the output of the pip freeze command also includes 
+03:33 specific version numbers for those packages, 
+03:35 this will recreate the exact same set of dependencies 
+03:38 including secondary dependencies. 

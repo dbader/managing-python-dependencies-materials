@@ -1,0 +1,89 @@
+00:01 Now how do you create one of those requirements files?
+00:04 One way to do it would be to just create a text file, 
+00:07 and type your dependencies into it. 
+00:09 And that might be a pretty good way to do it. 
+00:12 On the other hand, it becomes very difficult to actually 
+00:15 capture all of the dependencies, 
+00:17 including the secondary or transitive dependencies for you application. 
+00:22 Luckily, pip can help you with that. 
+00:25 So what I am going to do now is I am going to show you 
+00:28 the pip freeze command you can use to create requirements files very easily. 
+00:32 I am in my terminal here and I've got a virtual environment activated. 
+00:36 So to show you that this is a completely new virtual environment 
+00:40 where I haven't installed any third party dependencies, 
+00:43 I am going to run the pip list command. 
+00:46 You can see here that this just contains the internals for pip 
+00:51 and there are no third party packages here. 
+00:54 Pip freeze is the magic incantation for creating these requirements files. 
+00:59 Now watch what happens when I run pip freeze on a virtual environment 
+01:02 without third party packages. That is right, nothing happens. 
+01:07 Because there is nothing for pip to freeze. 
+01:10 So now I am going to install a couple of third party packages 
+01:13 so we can actually start creating a requirements file.
+01:17 Alright, I just installed the latest version of Requests and now, 
+01:24 when I run pip list again, you can see here that Requests shows up in this list, 
+01:30 now we could just take that and type it out into a separate requirements.txt file 
+01:36 but really this is what the pip freeze command is made for. 
+01:39 So when I run the pip freeze command now, I get a different result, 
+01:42 it actually captured the Requests library as a third party dependency, 
+01:47 so the output of the pip freeze command is 
+01:50 all we need to create our requirements.txt file. 
+01:53 We can actually just take that output and pipe it into a requirements.txt file, 
+01:59 and we don't even need to copy paste it 
+02:03 and go through a separate editor, let me show you how that works. 
+02:07 So this is the command I would run here, and once that finished, 
+02:11 it created a new requirements.txt file. 
+02:14 So when I take a look at this file you can see that it contains 
+02:17 exactly the output of the pip freeze command, 
+02:20 and that is a very quick way to capture the dependencies
+02:23 that are installed in your virtual environment 
+02:26 or in any Python environment for that matter. 
+02:28 Now before we move on, I want to show you how pip freeze, 
+02:32 not only captures the top level dependencies, 
+02:36 but it actually is smart enough to go and capture all of the secondary
+02:40 or so called transitive dependencies, 
+02:43 to include them in its output which we could then put into requirements.txt file. 
+02:48 So Requests doesn't actually have any third party dependencies, 
+02:51 so it doesn't really make a great example here, 
+02:53 so now I am going to install the Flask module, as another third party dependency 
+02:58 because Flask actually contains a bunch of secondary dependencies 
+03:02 that I can then use to demo how pip freeze deals with them. 
+03:10 Okay, so I just installed Flask here and you can already see 
+03:13 that it came with a bunch of third party dependencies, 
+03:18 and now these should actually show up if I run pip freeze again, 
+03:22 as secondary or transitive dependencies, 
+03:27 alright, so there we go, when I run pip freeze again, with Flask installed, 
+03:31 it's also listing the other dependencies or the secondary dependencies 
+03:37 that Flask brought with it, because really all I did here initially 
+03:40 was run pip install Flask and then Flask itself brought in 
+03:44 all of these other secondary dependencies. 
+03:47 Capturing these secondary dependencies is super important 
+03:50 to make an environment reproducible.
+03:53 As you can see here, pip freeze does exactly that, 
+03:55 so if I regenerate my requirements file, 
+04:03 you can see that this captures all of the dependencies, 
+04:07 so with this requirements file, we're in a pretty good shape 
+04:10 to completely reproduce this exact environment 
+04:14 on another machine including the exact version specifiers
+04:18 and including all of the dependencies and secondary dependencies 
+04:21 that our application might need. 
+04:25 Here is a quick recap on capturing dependencies 
+04:27 using the pip freeze command, basically you'll run the pip freeze command 
+04:31 and then take its output to create your requirements.txt file, 
+04:36 and then you would include the requirements file with your project 
+04:39 so that another developer can recreate the exact same environment 
+04:43 that you were using at the time when you created the pip freeze file. 
+04:47 Please note that the requirements file only specifies third party packages 
+04:53 and their version numbers, so this is not going to specify 
+04:56 exactly which version of the Python interpreter to use for example. 
+05:01 Pip freeze is the most important ingredient for achieving repeatability, 
+05:06 so with pip freeze you can capture all dependencies of your programs 
+05:10 including secondary dependencies and their exact version numbers. 
+05:14 So it's really important to capture the secondary dependencies 
+05:18 also because if you only specify the first level or top level dependencies, 
+05:24 what could happen is there might be a silent update for a secondary dependency 
+05:28 and this could then cause trouble down the line 
+05:31 when someone tries to install your program at a later point in time. 
+05:35 To avoid surprises, it's a good idea to always provide a requirements file 
+05:40 that includes all of the secondary dependencies 
+05:42 and their exact version numbers with your program. 

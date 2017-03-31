@@ -1,0 +1,23 @@
+00:01 Congratulations, you've just completed the managing third party dependencies 
+00:04 with pip module in this course. 
+00:07 Let's review what you've learned. 
+00:10 So we started out by talking about dependency management what it is good for, 
+00:13 what packages are and how they work in Python. 
+00:16 Next up, you learned about pip, the Python package manager. 
+00:20 After that, we made sure you've got 
+00:22 the latest version of pip installed on your system. 
+00:25 Then you learned about Python package repositories like PyPi; 
+00:28 after that, we were installing packages from the command line using the pip tool. 
+00:33 You also learned how to identify and update outdated packages on your system. 
+00:39 And last, you learned how to uninstall packages from your Python environment. 
+00:43 Here is some key takeaways for this module in the course. 
+00:47 Dependency management principles and package managers 
+00:51 are key ingredients to modern software development. 
+00:54 They allow you to simply search and install 
+00:57 well packaged third party building blocks 
+01:00 that you can then use in your own programs. 
+01:04 A key tool for that is pip, Python's recommended package manager. 
+01:08 Generally, third party Python packages will be hosted 
+01:12 on so called package repositories like PyPi. 
+01:16 Pip also has powerful version management features, 
+01:20 they can help you keep your local packages up to date and under control. 

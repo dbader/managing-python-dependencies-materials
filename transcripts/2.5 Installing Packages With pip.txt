@@ -1,0 +1,118 @@
+00:01 Next, you'll learn how to install packages with pip.
+00:04 We're going to cover the different ways you can install packages from PyPi,
+00:08 how you can install packages from other sources, 
+00:12 like git and other version control mechanisms, 
+00:15 how you can update packages and how you can uninstall them again. 
+00:19 This is how you install packages with the pip command line tool. 
+00:23 Basically, you open a terminal, and you run the pip install command, 
+00:27 passing it the name of the package that you want to install. 
+00:31 And by default, this is going to install packages from the PyPi package repository. 
+00:35 Pip also cashes packages locally, to speed up repeated installs. 
+00:41 Let's take a look at a quick demo here. 
+00:44 I am in a new terminal session here, and now I am going to walk you 
+00:47 through how to install a Python package using the pip install command line. 
+00:52 So, the pip command line interface has a couple of useful commands, 
+00:56 for example, there is the pip list command, that I can use to inspect 
+00:59 which packages are installed at the moment, so let's run this. 
+01:03 So this lists all of the packages that are installed 
+01:06 into my global Python environment right now, this is a really base line setup 
+01:10 and it doesn't really include anything besides pip and its dependencies, 
+01:14 what I am going to do now is install a third party package, 
+01:18 and for that we're going to use the Requests module. 
+01:21 So when you look at this list, you can see that it definitely 
+01:24 does not include Requests right now, so let's change that. 
+01:28 So this is the pip install command to install the Requests library, let's run it now. 
+01:33 Alright, so the installation completed successfully, 
+01:38 and now when I run the pip list command again, 
+01:42 Request should show up in that list. 
+01:45 Yeah, here it is, we successfully installed Requests. 
+01:48 Let's try it out, so I am going to jump into a Python interpreter session now, 
+01:51 and I am going to try and import the Requests module that we just installed, 
+01:59 alright, this succeeded, yeah, that looks pretty good, 
+02:05 let's try and actually fire off a real HTTP request. 
+02:18 Perfect, that worked just fine. 
+02:23 Another handy command is pip show, 
+02:26 you can use it to display metadata and information about locally installed packages, 
+02:31 so I am going to go ahead and run that on Requests now. 
+02:35 So you can see here, for example, the name and the version 
+02:39 of the library that was installed, a quick summary, the homepage for the library, 
+02:43 the license and also where it was installed locally on my machine. 
+02:47 So you just saw how to install a package from PyPi using the pip install command, 
+02:52 now what this will do is it will always install the latest version of the package 
+02:57 that is currently available, so what do you do if you want to install 
+03:00 an older, or a specific version of a package instead? 
+03:03 Pip has you covered there. 
+03:06 You can actually pass so called version specifiers to package names
+03:09 when you install them through pip install, 
+03:12 with this pip install requests==2.1.3 command, 
+03:16 I am installing a specific version of Requests 
+03:20 and these version specifiers can get pretty flexible, 
+03:22 for example, I can do this and actually pass 
+03:26 a version range for this Requests module, 
+03:29 so in this case, I would tell pip to install a version of Requests 
+03:33 that is between version 2.0 and 3.0, so essentially, 
+03:38 I would tell pip to install the latest version in the version 2 series of Requests. 
+03:44 One more feature when it comes to version specifiers, is the ~=specifier. 
+03:50 This tells pip to install a version of Requests that is compatible with version 2.1.3 
+03:56 in practical terms, that means it's going to try and install a version of the 2.1 branch 
+04:04 of Requests, that is going to be at least version 2.1.3, 
+04:10 so 2.1.4 and 2.1.5 and so on, would all be candidates for this. 
+04:16 Now this is handy for example if you want to get minor version updates automatically,
+04:20 but you still want to retain some control over larger upgrades, 
+04:24 if you're using version specifiers, I would generally recommend 
+04:28 that you are very specific with them because this can help avoid surprises. 
+04:32 Later on in this course, we're going to come back to these version specifiers, 
+04:35 and you're going to learn how to use them to set up fully reproducible 
+04:39 Python environments for your applications. 
+04:42 Before you move on, here is a quick warning about 
+04:45 installing packages globally using pip. 
+04:48 When you use the pip install command, by default, 
+04:51 it will install Python packages into the global Python environment. 
+04:55 This means that any package you install this way is going to be shared
+05:00 across the whole system or across your whole user account, 
+05:03 now this might be completely okay, if it's done intentionally, 
+05:07 for example, in order to install Python based command line tools, 
+05:11 like httpy in this case, you probably want to make sure 
+05:15 that you can access the tool from anywhere in the system. 
+05:19 Most of the time you should prefer so called virtual environments, 
+05:23 they are a way to keep your Python packages nice and separate by project, 
+05:27 and that way you can make sure you're not cluttering up the global environment, 
+05:31 later on in this course, you are going to learn 
+05:33 how to set up and use virtual environments, 
+05:37 this will help you avoid version conflicts 
+05:39 and we'll make sure that each project you're working on 
+05:42 has its own Python environment, to install packages into. 
+05:45 Here is another useful feature for installing packages with pip. 
+05:50 You just learned how you can install packages from a package repository like PyPi, 
+05:55 but pip also supports other sources, for example, 
+06:00 you can install packages directly from git and other version control systems, 
+06:04 here is what this would look like for installing a package that is hosted on github, 
+06:09 you would pass a url pointing to a git repository to the pip install command. 
+06:14 And you can even control which branch 
+06:17 or a specific commit in that repository you want to install. 
+06:20 Here are a few examples that install the requests library directly from github. 
+06:26 In the first example, I am putting the at master specifier, 
+06:31 to install the latest version of Requests directly from its master branch on git. 
+06:37 In the second example, I am using a commit hash specifier 
+06:41 to install a very specific version of the Requests library. 
+06:45 In the third example, I am pointing pip at a specific git tag to install Requests from. 
+06:52 You can see here how this gives you a lot of flexibility, 
+06:55 you might use this functionality to install a very specific versions of a library,
+07:00 for example, if you're waiting for a bug fix to land in the official release, 
+07:05 and you really can't afford to wait so sometimes maybe you want to install 
+07:09 the latest version of a library, directly from its source repository.
+07:13 or, you could use this feature to install private packages and libraries
+07:19 that are not available on PyPi. So you would just host your own library 
+07:24 in a git repository somewhere, and then point pip towards that. 
+07:29 generally though, if you can install a package
+07:31 from a proper package repository like PyPi, then I would definitely do it. 
+07:36 Installing a Python package directly from 
+07:39 a version control system is a bit of a special case. 
+07:42 Typically, you wouldn't use that functionality 
+07:46 to install any old publicly available package, 
+07:49 but you would reserve it for those special moments 
+07:52 when you really need to be on the cutting edge 
+07:54 and maybe need to install a specific commit 
+07:56 of a package to get your program to work. 
+07:59 This is definitely useful but I would also handle it with care, 
+08:02 and stick to PyPi when possible. 

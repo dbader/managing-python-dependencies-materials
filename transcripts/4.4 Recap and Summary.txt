@@ -1,0 +1,50 @@
+00:00 Great, now you know all the steps necessary 
+00:03 to find and pick a great Python library. 
+00:06 Let's do a quick recap. 
+00:09 So in step 1, we talked about how to find candidate packages, 
+00:12 how to search them on various websites and sources. 
+00:15 Then in step 2, we check package popularity, 
+00:17 to get a feel for how popular this library is in the Python community 
+00:21 and how many people are using it. 
+00:23 In step 3, we check out the project homepage as another important quality indicator. 
+00:27 In step 4, we had a look at the project readme, 
+00:29 step 5 answered the question whether or not the project is actively maintained, 
+00:34 then after that, in step 6, we spot check the source code 
+00:38 to get a good feel for the code quality of this library. 
+00:41 And all the way at the end, in step 7, we took that narrow down 
+00:44 list of candidate libraries and tried them out, 
+00:47 to get a good feel for what their strengths and weaknesses are. 
+00:51 Again, this whole process works like a funnel, 
+00:54 so you start with a pool of candidate packages, 
+00:57 and then successively refine that list by excluding packages 
+01:01 that you don't like or that can't actually get the job done. 
+01:05 So this is a process of narrowing it down 
+01:08 until it becomes very easy to make the final decision. 
+01:11 Being able to find and pick great Python libraries 
+01:13 for use in your own projects is a super helpful skill. 
+01:16 Now this is already a very useful skill if you're building software for yourself, 
+01:20 but if you're working with a team 
+01:22 and you have to justify these dependency decisions, 
+01:25 then you can use the same process and the same criteria 
+01:28 to explain your decision to your team, 
+01:31 your manager or whoever is interested and basically write a little report
+01:34 on all of the options that you've tried out. 
+01:37 And after going through all of these research steps 
+01:39 this report is going to be pretty bullet proof. 
+01:42 Congratulations, you just completed the finding 
+01:46 quality Python packages module in this course. 
+01:49 Here is what you've learned. 
+01:52 First, we discussed how third party packages can help you 
+01:55 become a more effective and more productive Python coder. 
+01:58 Next, you learned how to find popular packages on curated lists. 
+02:02 And third, you learned a whole workflow for selecting great quality packages 
+02:07 and a set of rules of thumb for making the right decision. 
+02:12 Let's end this module with a quick summary. 
+02:15 Python has a super rich third party library ecosystem 
+02:19 and using it effectively is the key to becoming more productive as a developer. 
+02:24 Now while it is great that you have so many third party packages available,
+02:28 using a third party package in your own programs, 
+02:32 always has a maintenance cost, 
+02:34 and this is something you should be very mindful of, 
+02:36 the solution here is to stick to high quality packages 
+02:39 in order to keep those maintenance costs under control. 

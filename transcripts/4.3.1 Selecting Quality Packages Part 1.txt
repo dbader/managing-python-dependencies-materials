@@ -1,0 +1,249 @@
+00:01 When you're looking to find a quality Python package 
+00:03 to help you out with a problem at hand, it can be a little bit overwhelming, 
+00:06 having to select between all of these different options. 
+00:09 In my time as a Python developer, I've come up with 
+00:12 a series of rules of thumb for selecting a great package. 
+00:15 I've turned this into a seven step workflow 
+00:18 that you can use to find and select quality Python packages. 
+00:21 Let me walk you through it now, step by step. 
+00:24 Think of this workflow as a funnel. 
+00:28 First, you're going to find a poll of candidate packages,
+00:32 and just do a bunch of research and basically 
+00:35 collect as many packages as possible that could help you 
+00:38 with the problem at hand, and then, with each of the steps in this workflow, 
+00:41 we're going to successively refine this list by excluding packages, 
+00:46 each step will help you gather more information and give you 
+00:50 a better understanding of the quality of each package. 
+00:54 The goal of this process is to make the decision 
+00:56 which package to use, really really simple. 
+00:59 You'll be starting with this long list of candidate packages and in the beginning, 
+01:03 it will be almost impossible to tell 
+01:06 which one is the perfect package for your use case, 
+01:09 but as you keep narrowing down that list, by the end of this workflow, 
+01:12 you will have narrowed down that candidate list so much and you will have built 
+01:16 a great understanding of the strength and weaknesses of each library, 
+01:20 that making that decision is going to be very easy for you. 
+01:24 The ability to find and identify great Python packages, 
+01:27 is very helpful even if you're working on your own, 
+01:30 but it gets so much more powerful if you have to justify your dependency decisions 
+01:35 to a team of other developers or to your manager. 
+01:39 You can apply the same workflow and the same criteria 
+01:42 and use them to explain your decisions;
+01:45 to give you a concrete example, you could just take this process 
+01:48 and as you go through it, take extensive notes 
+01:51 and basically compile a report about your decision 
+01:54 and after you went through those seven steps in the workflow,
+01:57 this is going to be a pretty bulletproof report 
+02:00 that you can then share with your team, or your manager. 
+02:03 Alright, let's jump right in and then you'll learn this important skill in no time. 
+02:07 Let's start with step 1- finding candidate packages. 
+02:12 The first thing that I usually do is that I come up with a list of candidate packages 
+02:16 that will help me solve the problem at hand. 
+02:19 And there is a number of ways you can fill up that list.
+02:22 In my mind, it really helps to come up with the series of options, 
+02:25 so that you have a base for comparison. 
+02:27 Now, let's talk about how you would fill up that candidate package list. 
+02:31 I often start out by browsing through the curated lists I told you about earlier, 
+02:36 so I would just open up those websites like Awesome Python, 
+02:39 I will try and find the matching category that is relevant to my problem 
+02:44 that I am trying to solve and then I'll just click through that category 
+02:48 checking out all the packages that are listed there. 
+02:51 Another option would be just to run a quick Google search 
+02:55 for two to five relevant keywords, imagine you are looking for a way 
+02:59 to upload files to Amazon's s3 service using Python. 
+03:03 Here is what I would do, so for that, I just open up Google 
+03:06 and then I would probably search for something like s3 upload Python, 
+03:10 you know, very focused keywords and just kind of sprinkle 
+03:14 the minimal set of keywords that I could think about, and I just search for that. 
+03:19 And then the results here are going to give me a pretty good overview, 
+03:23 so I probably just click through the first three results or so, 
+03:27 and just check out what they have to say. 
+03:30 Now, this question here, pretty much is what I had in mind 
+03:33 and looking at the first answer points me to the boto library, 
+03:38 so I'll probably check that out and add it to the list, 
+03:41 and then I do the same thing for the other top search results, 
+03:44 now in this case, I know from personal experience that boto is a great choice, 
+03:48 so the fact that we're already seeing this result is a pretty good sign. 
+03:53 Honestly, I found that a quick Google search can really help you out here, 
+03:56 it's often digging up the right content immediately pointing you 
+04:00 to results on stack overflow or on forums like reddit or hacker news. 
+04:04 So I usually do that really early on in my research process, 
+04:07 when I am looking for a new Python package. 
+04:10 You've already seen that I looked at a stack overflow result here,
+04:14 so stack overflow is another great site you can use 
+04:18 to find recommendations for Python packages, 
+04:21 if you haven't used stack overflow before, 
+04:24 it's basically a question answer side for developers. 
+04:27 And you can search it as well, so I am just going to punch in the same keywords 
+04:31 that I previously searched on Google, just to see what comes up, 
+04:34 so by default, this will be sorted by relevance, which is kind of an opaque measure, 
+04:38 so often, I'll just immediately switch over to the votes tab
+04:41 which will give me the most upvoted answers. 
+04:44 Alright, so let's check out the first answer here. 
+04:47 So, this is the number one upvoted answer for this question, 
+04:50 I am not going in to read the full question, 
+04:53 I just want to see what kinds of libraries and tools people recommend here. 
+04:56 And as I scroll down, I can immediately see that okay, 
+04:59 boto is another library that people recommend, 
+05:02 so again, this will be a pretty good indicator that I should really check out 
+05:06 this boto library because it just keeps popping up again and again.
+05:09 Another great recommendation for finding quality Python packages
+05:15 are community forums like reddit or hacker news, 
+05:18 and sometimes you can also use Twitter like that, 
+05:21 let's take a look at those now. 
+05:24 Reddit is a community forum website that has a pretty large Python community, 
+05:27 you can find it at reddit.com/r/python. 
+05:32 And reddit has a search feature as well, 
+05:34 again, what I would do here is I would punch in the same keywords 
+05:37 and then I would limit my search.
+05:41 In this case, we could probably drop the Python 
+05:43 because we're just searching the Python forum. 
+05:46 So, anything s3 related will pretty much be about Python. 
+05:50 Alright, let's see what w got here, so this looks pretty helpful already, 
+05:53 one interesting bit here is that you can see when the question was submitted, 
+05:58 or when the form thread was created. 
+06:01 So you want to make sure you are not looking at super old content 
+06:04 for things that could change frequently. 
+06:06 But let's just check out this discussion here. 
+06:08 So this looks like this is not going to give me the answer immediately, 
+06:11 but I can still learn a lot about how people talk about the problem here, 
+06:15 what keywords they use and that could point me in the right direction 
+06:20 to actually find the library that does what I want or I actually find 
+06:23 a discussion where someone recommends a specific library 
+06:26 and then other people can respond to that discussion 
+06:29 and I can read what they have to say and that is going to give me 
+06:32 a pretty good idea of whether or not that library might be the right choice for me. 
+06:36 Another helpful community forum is hacker news. 
+06:40 Now, by default hacker news doesn't have a search function built in, 
+06:44 but you can use a third party search at hn.algolia.com 
+06:49 that can do a full tech search on comments and stories inside hacker news. 
+06:53 Again, let's punch in s3 upload Python and see what happens. 
+06:58 Alright, so looking at these results again I see boto popping up here 
+07:01 so this could be interesting, maybe this result is a little bit old, 
+07:05 but again, this could be a good way to fill up that candidate list 
+07:09 and identify libraries that other people recommend and use. 
+07:12 Even if you're not using twitter, 
+07:15 just the fact that so many people share their thoughts 
+07:17 on twitter all the time, can be pretty powerful 
+07:20 if you're looking for an answer to your programming question, 
+07:23 I know it sounds a little bit crazy but this works more often than you'd think, 
+07:27 so let's try it out, I don't know what is going to happen. 
+07:30 Again, I am searching for the same set of keywords, 
+07:32 and then I am just going to check out some of the responses here, 
+07:36 alright, so sometimes it's going to reference other source material like stack overflow,
+07:40 or blog posts, okay, so this looks pretty interesting here, 
+07:44 this guy is talking about a script that uploads stuff to s3, so why don't we check it out. 
+07:49 So just looking at the code here, it looks like this guy is not using a specific library 
+07:53 to talk to s3, but he is using the command line tool, this aws s3 command, 
+07:58 so this could be another option for us to research now, maybe it's a good choice, 
+08:01 I don't know, I know this process is a little bit time consuming 
+08:04 but it's really impressive what this process can dig up. 
+08:08 If you do this for an hour or two, you're going to be pretty much an expert 
+08:11 on what's out there in terms of libraries that could help you with this job. 
+08:1408:19 If you've searched all these sites and you're still not happy 
+08:22 with this candidate package list that you've built up, 
+08:25 then it might make sense to search PyPi directly, 
+08:28 personally, I find it a little bit hard to find stuff on PyPi 
+08:32 because the interface is pretty clunky, and there is very little curation. 
+08:37 But it might still make sense to spend a few minutes on that 
+08:40 and see if you can dig up something useful. 
+08:44 Now, another option to get those candidate packages would be 
+08:47 to actually ask a question on stack overflow or reddit, 
+08:51 so on all of these sites you can create a free account, 
+08:55 and just start asking questions, of course, you want to be mindful 
+08:58 of questions that people have asked in the past, 
+09:01 so I recommend that you do some research first 
+09:03 to avoid running the danger of posting duplicate questions. 
+09:06 But usually, people are pretty receptive and helpful on these forums, 
+09:09 so it might make sense to give it a shot. 
+09:12 However, it's rather time intensive to write and post the question 
+09:15 and then having to wait a couple of hours or even days to get a response. 
+09:19 Now at the end of step one, you should have a list of candidate packages 
+09:24 that you want to do some further research on. 
+09:27 After you've generated a list of candidate packages, 
+09:31 the next step is to check out how popular these packages are. 
+09:36 Usually popularity is a good sign if you're looking for a Python package 
+09:40 because that often means that the package is well maintained it's high quality, 
+09:45 and you can't really go wrong with installing it and using it for your own purposes. 
+09:50 Now, how can you find out if a package is popular?
+09:53 One way to do it would be to check out the download stats, 
+09:56 now you used to be able just to go to PyPi 
+09:59 and checkout the download stats for a package, 
+10:02 but this feature was removed when the PyPi architecture changed. 
+10:05 So right now, you can't really get those stats, they might come back in the future, 
+10:09 and then I think they are really good indicator, 
+10:11 but right now, we'll have to go with something else. 
+10:14 Another good popularity indicator would be 
+10:17 just the number of Google results and reddit results and stack overflow results 
+10:20 or recommendations you find for a given package. 
+10:24 And often, this step of the research process 
+10:26 happens in combination with the first one, 
+10:28 so as you go along and search these sites, 
+10:30 you can take mental notes of which packages show up frequently. 
+10:34 And this could be really valuable information, 
+10:36 when you have to make a decision which one you are going to use.
+10:39 If a package is hosted on github, you could also check out their github page 
+10:43 and see how many stars they have on github, 
+10:46 so the star system on github is a pretty simple voting system 
+10:49 where people can favorite or star repositories.
+10:52 Now, if you are thinking about installing a library 
+10:55 that has let's say 5 thousand or 10 thousand stars, it's pretty much a no brainer. 
+10:59 If it only has 10 or 20 then maybe that is not a bad sign, 
+11:03 but it's also probably not a super popular library. 
+11:08 Another way to get at that information is using the python.libhunt website 
+11:12 and it includes a popularity indicator that is based on some other opaque values 
+11:17 sometimes it can be helpful to compare two packages 
+11:20 and just kind of see which one has more traction. 
+11:24 Now at the end of step two, you should have a pretty good understanding 
+11:27 of the relative popularity of your candidate packages. 
+11:30 Once you have narrowed down the list of candidate packages 
+11:34 I would start checking out the actual project homepages. 
+11:38 You could learn a lot from a project website, 
+11:41 things like does this website actually feel helpful,
+11:44 is it answering my questions that I have as a new user, 
+11:48 does the website look actively maintained, 
+11:51 and how successful does this project look, 
+11:55 did someone actually spend the time to make the website helpful and nice; 
+11:58 let's play through this with an actual Python project website.
+12:03 A great example here is the Requests library, 
+12:07 and right away when this site loads up, 
+12:10 this looks like a really high quality library, 
+12:13 it has its own logo here, it looks like it's supporting a bunch of Python versions 
+12:17 it looks like it has automated tests which is always a great thing to see, 
+12:22 and the project maintainer is also tracking test code coverage. 
+12:25 Here on the left you can see that the page has 
+12:30 this embedded github stars indicator, and as you can tell, 
+12:33 the library has a high number of stars here which is usually a good sign. 
+12:36 What I like here as well is that the page starts with a concrete example 
+12:40 of what you can do with the library and what it looks like to use it. 
+12:44 This is great, so they even have a bunch of user testimonials 
+12:47 from really well known people in the Python community, 
+12:51 and when I scroll down further, I can see here that it has a pretty extensive user guide 
+12:55 that covers a number of interesting things and seems really well structured, 
+12:59 there is also in depth API documentation which is always a good sign. 
+13:04 Another sign that this is a really popular and strong library is 
+13:07 that it has a contributor guide with all kinds of information 
+13:11 about how to contribute to the project, the code style they use, 
+13:15 how people should report bugs, and a really small and unpopular library 
+13:20 is usually not going to have a need for that. 
+13:23 So when you see something like that, that is usually a strong sign 
+13:26 that the library is really popular and very successful. 
+13:30 And by extension that means it's usually a safe choice 
+13:33 for you to use that library in your own programs. 
+13:36 By the way, if you're wondering where to find a project's homepage, 
+13:41 if it has one, you can usually find the link on PyPi, 
+13:44 so it we'll be right here on the left and for older versions of PyPi 
+13:48 you will typically have to scroll all the way down 
+13:52 and then you can find the link to the project homepage there. 
+13:55 There we go, this is the homepage link for the Requests library. 
+13:59 At the end of step 3, after you check the couple of project homepages, 
+14:03 your list should have narrowed down a little bit further, 
+14:06 at this point you are starting to get to know these projects a lot better 
+14:09 and you have a good idea of how popular they are, 
+14:12 how well maintained they are, and whether or not you like them. 
+14:15 So maybe you can already start excluding some libraries 
+14:18 that you are not really enjoying as much. 
+14:20 Of course, not all libraries are going to have a dedicated website or homepage, 
+14:24 that doesn't automatically mean that the library is not great quality, 
+14:27 many Python projects don't actually have dedicated homepages, 
+14:31 but if there is one, it absolutely makes sense to check it out. 

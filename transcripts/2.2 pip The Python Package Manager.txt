@@ -1,0 +1,29 @@
+00:01 The recommended package manager for Python is called pip. 
+00:04 Now, before I go into a little bit more detail on pip, 
+00:07 I want to explain to you first what packages in Python are. 
+00:10 I am going to use the following definition here. 
+00:13 So a package is a bundle of software, to be installed into a Python environment. 
+00:18 And typically, this would include things like third party libraries and frameworks.
+00:23  And I am sure you've heard about some of those, for example, 
+00:26 Django would be a popular package in the Python world, 
+00:29 and so would be Requests, the HTTP download library. 
+00:33 And then, there is Numpy, another very popular package 
+00:36 that includes tons of different libraries and frameworks 
+00:39 for number crunching and data science. 
+00:42 Time to talk about pip, the Python package manager. 
+00:45 Pip comes with any modern Python install, 
+00:48 it's included by default with the rest of the Python standard library 
+00:52 and things like the Python interpreter, 
+00:56 pip's main interface is a command line tool, also called pip. 
+00:59 I am going to show you how to access pip from the command line now. 
+01:03 I am in my terminal here, and now I am going to run a quick version check on pip, 
+01:07 alright, you can see here that it tells 
+01:12 me exactly which version of pip I've got installed, 
+01:15 and it also tells me where this version of pip lives right now. 
+01:19 So, here I am running Python 3.6 on Mac OS 
+01:22 and pip tells me that it's using this install 
+01:25 with the Python 3.6 site packages directory. 
+01:29 Pip's command line interface also has a help command. 
+01:33 Running the help command will show you all of the available subcommands 
+01:38 you can use with pip and you are going to learn 
+01:41 how to use the most important pip commands here in the course. 

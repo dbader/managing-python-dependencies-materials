@@ -1,0 +1,47 @@
+00:01 Let's talk about how third party packages can help you 
+00:03 become a more productive and more effective Python coder. 
+00:06 What I absolutely love about Python is the fact that it has 
+00:10 a super rich third party package ecosystem. 
+00:14 When I check PyPi, close to 100 thousand packages 
+00:18 which is freely available for anyone to install through pip.
+00:22 And all of these modules and libraries combined 
+00:27 cover a wide range of topics and scenarios. 
+00:30 Because of this rich third party library ecosystem 
+00:35 it's fairly likely that whatever scenario you encounter, 
+00:39 there might just be a free Python library that you could use 
+00:43 that will make your job so much easier. 
+00:46 Imagine you're working on a Python project, 
+00:48 and now the need arises to download files over http 
+00:53 or to talk to some kind of web service in your application. 
+00:57 Now of course you could go in and write this functionality from scratch, 
+01:00 but maybe just maybe, there is a third party package 
+01:03 that could help you with this. 
+01:06 And if you found the perfect third party package, 
+01:09 you could save a lot of time, you wouldn't have to reinvent the wheel, 
+01:12 and write this stuff from scratch, and you could deliver the whole project 
+01:16 so much faster. 
+01:18 Where do you find those great Python packages?
+01:21 And this is a very common question, and the common challenge 
+01:25 for every Python developer, leaving the safe haven of the Python standard library. 
+01:30 So given a problem that you want to solve in your program,
+01:33 how can you identify and where can you find 
+01:37 a package that could help you with that? 
+01:39 Then of course the next question is 
+01:42 what actually makes a quality Python package, 
+01:45 how can you tell if you have multiple options available, 
+01:48 which one is better, which one is going to have less of a maintenance burden 
+01:51 and which one is the safer choice in the long run. 
+01:54 Unfortunately, I'll have to share some bad news with you first. 
+01:59 There isn't really a shortcut to finding the perfect Python package, 
+02:03 because there is so many packages you can choose from, 
+02:05 it will always take some research and some elbow grease 
+02:08 to find the perfect package or the perfect library given the situation that you are in. 
+02:14 However, this is totally worth it, this is a perfect way 
+02:17 for you to really scale your productivity and take it to the next level. 
+02:22 If you can develop the skills to find and identify quality third party packages, 
+02:26 and you can start leveraging those in your own programs, 
+02:29 your productivity will shoot through the roof. 
+02:32 because you will be able to avoid having to reinvent the wheel all the time, 
+02:36 and you will be able to build your applications using these 
+02:39 freely available building blocks and that will make you much faster,
+02:43 much more effective and much more productive as a Python developer. 

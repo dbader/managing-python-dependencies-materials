@@ -1,0 +1,100 @@
+00:01 Browsing through curated lists is one of the quickest ways 
+00:04 you can find a Python package that can help you with a problem at hand. 
+00:07 So you can just pull up one of these curated lists websites 
+00:10 and then browse popular libraries by topic. 
+00:14 For example, one topic might be web development, 
+00:17 another one might be database interfaces or data science. 
+00:21 And that gives you a good idea of what the popular and recommended choices 
+00:25 for solving those problems are in the Python community. 
+00:29 I've listed some of these curated list websites for you 
+00:32 and we're going to take a look at a couple of those now. 
+00:35 The first curated list website that I want to show you is called Awesome Python, 
+00:40 you can find it at awesome-python.com. 
+00:43 This is a really extensive list with useful Python packages. 
+00:48 You can see here, it's split up into different categories 
+00:51 and then you can drill down into those. 
+00:54 Let's check out database drivers here. 
+00:57 now you can see here that there are actually subcategories 
+01:00 for example, the drivers for mysql, postgress, and so on. 
+01:04 Now this isn't a review site, this is nearly a list of popular packages 
+01:09 so you will still have to make a decision which one you prefer 
+01:13 and I am going to give you some tips for that, later on in the course. 
+01:17 You can also search this list, which is handy sometimes, 
+01:21 so for example if you're looking for libraries to download stuff through http 
+01:26 you can find those quickly through the search function. 
+01:29 Now what's interesting about Awesome Python too is
+01:32 that it's an open source website, there is a community of people 
+01:35 working on the website contents through github. 
+01:38 And you can see ongoing development here on the github project page, 
+01:42 people will create issues and pull requests 
+01:45 to add new recommended libraries or change the preferred choice. 
+01:49 So all of this is very fluid, and the great thing is that it's usually fairly up to date. 
+01:54 So what I really like about this curated list is that there is so much activity 
+01:59 and people are working hard to keep it up to date. 
+02:02 Also, you can contribute and jump in and help make the site better if you want to. 
+02:06 Another useful website is python.libhunt.com, the packages that show up here 
+02:13 are actually based on the contents of the Awesome Python list. 
+02:17 But libhunt adds some extra features on top of that, 
+02:20 for example, more extensive search and then they also have 
+02:27 some metrics for project health and popularity which can be helpful sometimes. 
+02:32 For example, there is this relative popularity indicator, 
+02:36 that might be helpful for you to make a choice between two libraries, 
+02:39 there is also this activity indicator telling you 
+02:42 how much activity there is on the project repository. 
+02:45 Again, this can be a good way to identify a well maintained package, 
+02:49 now when I click on one of those packages, I get some more stats here 
+02:52 instead of just being redirected to the project homepage.
+02:56 Depending on what you're looking for, this python.libhunt website 
+03:00 might be a good way for you to find quality Python packages. 
+03:03 The Hitchhiker's Guide To Python is another great website 
+03:08 with library recommendations. You can find it at python-guide.org. 
+03:13 When you scroll down a little bit, 
+03:16 you will find the scenario guide for Python applications, 
+03:19 and this guide makes some recommendations 
+03:22 around tools and modules based on different scenarios. 
+03:25 Let's check out this network application section here. 
+03:28 We see a list of recommended libraries here 
+03:31 and while this is not as extensive as Awesome Python 
+03:34 what I like about this is that it gives a little bit more
+03:37 background info about the library. 
+03:39 This might save you some research time, and in general,
+03:42 the Hitchhiker's Guide To Python is a pretty fantastic website, 
+03:45 so you might want to check it out in any case. 
+03:48 Again, this guide is an open source website on github, 
+03:52 so people can contribute to the site through issues 
+03:55 and by opening pull requests and that generally means 
+03:58 that there is some activity and it's kept up to date over time.
+04:01 Another handy website is Python Module Of The Week, 
+04:05 you can find it at pyMOTW.com. 
+04:10 Now, this website is mainly focused on modules in the Python standard library, 
+04:14 it's not really reviewing any third party modules but nevertheless, 
+04:19 this is a great resource to find some of the awesome packages 
+04:23 that are shipping with Python and that are included in the standard library. 
+04:26 One of the great things about Python is that it comes with "batteries included", 
+04:30 you will be able to solve many of the problems you encounter in practice 
+04:34 by working with the Python standard library; 
+04:36 generally the implementations there are well maintained, 
+04:39 and they are included with any Python install, 
+04:42 so it makes sense to do a quick check if what you are looking for
+04:44 is already part of the Python standard library, 
+04:47 and for that kind of research, Python Module Of The Week is a great website. 
+04:51 Okay, here is one more useful website for doing that kind of library research. 
+04:56 Python has an official wiki at wiki.python.org 
+05:00 and it also includes some library recommendations 
+05:03 or generally useful libraries that you might want to check out. 
+05:06 There is a useful modules page in the wiki and it will point you 
+05:10 to some of the building blocks that you can use 
+05:13 in your own projects, let's check it out.
+05:16 Again, this is organized by category and while I found this 
+05:20 isn't as well maintained as let's say Awesome Python 
+05:23 there is still some interesting modules in here, 
+05:26 so if you have the time to do research you might want to check out the wiki as well. 
+05:31 Some of these sections have specific pages 
+05:34 that talk about web programming for example, 
+05:37 so you also might want to check those out. 
+05:40 The page on web frameworks for example is pretty extensive, 
+05:42 it's kept fairly up to date and there is a big list of Python web frameworks 
+05:47 that you might want to browse through if that is what you're interested in. 
+05:51 Personally, I would probably start my research with one of the other websites, 
+05:55 but it might still pay off to spend some time 
+05:57 browsing around on the official Python wiki. 

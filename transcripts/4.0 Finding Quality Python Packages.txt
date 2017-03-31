@@ -1,0 +1,22 @@
+00:01 Welcome to the finding quality Python packages module in the course.
+00:04 One of my favorite things in Python is the rich third party package ecosystem. 
+00:11 There is so many open source packages available 
+00:14 that you can just install for free and use in your own applications. 
+00:17 The ability to find and identify these high quality packages 
+00:22 will make you a much more productive and effective Python developer, 
+00:26 but first, let's take a quick look at where you are right now in the course curriculum; 
+00:31 at this point you have all the tools you need 
+00:33 to be able to install third party packages, 
+00:36 and to keep them nice and separate. 
+00:38 So now you're going learn where to find these high quality packages 
+00:42 you can use in your own applications. 
+00:44 Here is what this module in the course will teach you to do, 
+00:47 first, you're going to find out how third party packages 
+00:51 can help you become a more effective and more productive Python coder. 
+00:55 Next, I am going to show you several curated lists 
+00:59 of the most popular Python packages and you can use those lists 
+01:03 to quickly find the best options in a specific category, 
+01:07 for example, the most popular web frameworks in Python. 
+01:11 After that, you are going to learn a specific workflow 
+01:14 and some rules of thumb and quality indicators 
+01:17 for selecting a great quality package. 

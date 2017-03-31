@@ -1,0 +1,21 @@
+00:02 Congratulations on completing the setting up reproducible environments 
+00:05 and application deploys module in the course. 
+00:09 Here is what you learned. 
+00:11 You started out by learning what requirements files are, 
+00:13 what they are good for and how they can help you out 
+00:16 in your Python development workflow. 
+00:18 Next, you learned how to capture project dependencies 
+00:20 using the pip freeze command; right after that, 
+00:23 you learned how to restore captured dependencies using the pip install command. 
+00:27 In the fourth lecture, you learned how to separate 
+00:30 your development and production dependencies, 
+00:32 so that your production deploys can run lean and mean. 
+00:35 And last, you learned some best practices around requirements files 
+00:38 that make working with them a little bit easier. 
+00:41 Here is a quick recap of this module in the course. 
+00:44 Requirements files allow you to specify 
+00:47 all of the third party dependencies of a Python program. 
+00:50 This is really powerful, it allows you to make your dependency installs 
+00:54 and application deployments fully repeatable. 
+00:57 The pip package manager includes everything you need 
+01:00 to capture an restore third party dependencies. 

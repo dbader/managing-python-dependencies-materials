@@ -1,0 +1,55 @@
+00:00 Welcome to the setting up reproducible environments and application deploys module. 
+00:03 Here is where you are right now in the course, 
+00:07 so you've learned how to manage third party dependencies with pip, 
+00:10 you know how to isolate your dependencies with virtual environments 
+00:13 and you also just learned how to find and identify quality Python packages, 
+00:18 now let's talk about another very important topic 
+00:21 when it comes to dependency management in Python. 
+00:25 Let's say you're working on a Python program,
+00:28 and the project has matured quite a bit, 
+00:30 and so now finally, you want to share it with other people. 
+00:33 If you're using third party packages, in your Python program, 
+00:36 then that might not be so easy. 
+00:39 How can you make sure that someone else trying out your program 
+00:42 can get the exact same set of dependencies? 
+00:45 Even the slightest version conflicts can make installing 
+00:48 someone else's Python program a very frustrating experience. 
+00:53 So the real question here is how do you reliably specify
+00:56 all of the dependencies that a Python program needs. 
+01:00 And this is not only about sharing your programs with other people, 
+01:04 there are many environments your Python program can run in, 
+01:08 for example, there is likely going to be a local development environment and ideally, 
+01:12 that development environment should be the same
+01:14 across all of the developers working on the project. 
+01:18 Then there might be automated tests that are being run 
+01:21 on a continuous integration infrastructure. 
+01:24 Again, all of these tests should run under the same set of dependencies, 
+01:27 depending on the complexity of your program, 
+01:30 there might be several deployment targets, 
+01:33 for example, if you're building a web application, 
+01:35 there might be a staging server and a production server. 
+01:38 How can you make sure that all of those environments 
+01:41 use the exact same set of dependencies, 
+01:43 because using the same set of dependencies across all of these environments, 
+01:48 with the exact same packages and the exact same version numbers, 
+01:52 is very important to achieve a reliable deployment process. 
+01:56 So really, the goal here is that all environments 
+01:59 are going to use the same set of dependencies. 
+02:02 So this is the goal that we're aiming for here. 
+02:05 Now, how do you make dependency installs repeatable in Python? 
+02:10 And the answer is requirements files. 
+02:14 In this module in the course you are going to learn 
+02:18 how to use requirements files to make your application deploys 
+02:21 and Python project installs fully repeatable. 
+02:24 First, you are going to go through a quick introduction to requirements files, 
+02:27 to learn what they are, what they look like and how to use them. 
+02:31 Right after that, you are going to learn how to capture 
+02:34 project dependencies automatically using pip. 
+02:36 In the third lesson in this module, you are going to learn 
+02:39 how to restore captured dependencies in order to deploy your application. 
+02:43 Next, you're going to learn some tricks on how to separate 
+02:45 your development and production dependencies; 
+02:48 to conclude the module, you are going to learn some best practices 
+02:51 around requirements files that will make working with them a lot easier. 
+02:54 Alright, time to make your Python application deploys 
+02:56 fully repeatable, let's jump right in. 

@@ -1,0 +1,23 @@
+00:01 You might have seen those requirements files before, 
+00:03 they are usually called requirements.txt 
+00:06 or sometimes also requirements.pip 
+00:09 and what they are is basically a list of pip install arguments placed in a text file. 
+00:15 So this is what a very simple requirements.txt file would look like. 
+00:20 You can see here that the requirements file contains a list of package names. 
+00:25 So in this case, it includes the requests module, 
+00:29 with a specific version using the version specifier syntax you learned about earlier, 
+00:34 and it also lists the schedule module with a similar version specifier. 
+00:38 Now this is a very simple example but it's also quite typical 
+00:42 of what a real world requirements file would look like. 
+00:45 One interesting thing you can do with these requirements files 
+00:48 is that you can add comments to these files, 
+00:51 so you would just place the hash character and then you can place a comment. 
+00:55 This is often helpful to explain what is going on in your requirements files 
+01:00 or if you want to leave a comment for the next developer working on that file. 
+01:05 Requirements files capture all of the third party dependencies 
+01:09 a Python program needs to run, and usually, 
+01:12 they do that by specifying the exact package versions. 
+01:16 Using requirements files a Python environment can be reproduced 
+01:20 in exactly the same way on a different machine or for different developer, 
+01:26 or even just in a different directory on your local machine. 
+01:29 They are a key bits for achieving repeatability in your Python built environments. 

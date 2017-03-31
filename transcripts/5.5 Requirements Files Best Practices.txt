@@ -1,0 +1,92 @@
+00:02 Now that you have a good idea about how requirements files work, 
+00:05 and how you can leverage them to organize your Python dependencies, 
+00:09 let's talk about some best practices 
+00:11 for structuring and organizing your requirements files. 
+00:14 When it comes to version specifiers, it's a good idea to use 
+00:18 exact versioning most of the time, this is also called pinning 
+00:22 and it means that you lock down the exact version 
+00:25 of a package that will be installed, trust me, 
+00:28 this will help you avoid headaches in the long run. 
+00:31 It's also important that you include secondary dependencies 
+00:34 in their exact version numbers. 
+00:36 If you don't include secondary dependencies and pin them down to exact versions, 
+00:41 what can happen is that a secondary dependency gets silently upgraded
+00:45 on the next deploy and that might break your application. 
+00:48 So my recommendation here would be to use exact versions 
+00:52 for all of your packages including secondary dependencies. 
+00:56 Now it may make sense to go without a version specifier 
+01:00 for some development dependencies, 
+01:02 for example, if you're using a third party debugger, 
+01:05 like ipdb or pdb++ it can make sense to leave that unpinned 
+01:10 so that you can always work with the latest version. 
+01:13 Personally, I am leaning towards pinning as many packages as possible. 
+01:17 From personal experience, I know that this can help avoid a lot of trouble. 
+01:21 When it comes to naming your requirements files 
+01:26 the most popular choice seems to be requirements.txt 
+01:30 and then also requirements-def.txt file for those development dependencies. 
+01:36 Other popular choices for requirements files names, 
+01:39 include requirements.pip or requirements.lock but really, 
+01:44 this is just a naming convention and those files would function 
+01:47 exactly the same as the requirements.txt files you've seen before. 
+01:52 Whatever you name your file, typically they would be placed 
+01:55 in the root folder of your project, some projects also create 
+01:58 a separate requirements folder, 
+02:01 but services like Heroku typically expect that the requirements file 
+02:05 sits in the root folder of the project so if you go with this convention,
+02:08 it usually makes things a little bit easier for you 
+02:11 because you won't have to overwrite config variables 
+02:14 and point them to a non standard location for your requirements files. 
+02:18 That is why I would recommend that you always 
+02:20 put them into the root folder of your project. 
+02:22 One more handy feature in requirements files is that they support comments, 
+02:27 you can see this in the example here, all you need to do is place a hash character, 
+02:32 serve like a Python comment and then all text behind that is going to be ignored. 
+02:37 It's a great idea to use comments in your requirements files, 
+02:42 for example, you could use them to explain the difference 
+02:45 between your requirements.txt file and the requirements-def.txt file, 
+02:50 this will be helpful for any developer working with the project in the future. 
+02:55 Or you could leave a comment on a specific dependency 
+02:57 to explain your choice or to explain why a specific version is needed, 
+03:02 adding comments to your requirements files is a great idea. 
+03:06 There is a common question around 
+03:09 ordering dependencies inside requirements files, 
+03:12 so should you order them, what order should you put them in, 
+03:16 usually I start my requirements files with the direct dependencies, 
+03:20 so these would be the dependencies that 
+03:22 I initially installed using the pip install command, 
+03:25 this would include packages like requests, or Flask, 
+03:29 and I like to sort them alphabetically because that makes it easier 
+03:33 to find what I am looking for. 
+03:35 Then, after those direct dependencies I would put a section 
+03:38 with secondary dependencies and I usually use comments 
+03:41 to indicate the difference between the two. 
+03:44 So all of these secondary dependencies are dependencies
+03:46 that I didn't install directly through pip install 
+03:49 but they were installed because a direct dependency required them. 
+03:53 For example here, if you pip install Flask it will bring in the
+03:57 jinja 2 templating library and also the werkzeug library. 
+04:01 So my typical workflow here would be to capture all dependencies 
+04:05 using the pip freeze command and then go through them 
+04:08 in an editor to split them into direct dependencies 
+04:11 and secondary dependencies and perform the ordering. 
+04:14 When you do a pip install using that requirements file 
+04:16 pip will figure out the right order to install your packages in 
+04:20 so you don't have to worry about breaking things by changing the order. 
+04:23 Another best practice that you already learned about 
+04:26 is the development and production environment split. 
+04:29 Pip allows you to link up requirements files so that when you install one, 
+04:32 pip will go out and actually also install the other, 
+04:35 there is a whole lesson for that in the course, so you might want to rewatch that, 
+04:39 as it's a highly recommended and very useful feature. 
+04:41 Let's do a quick recap here, those were the requirements files 
+04:44 best practices that you just learned, 
+04:47 first, you learned about the importance of version pinning, 
+04:50 second, we discussed naming schemes for requirements files, 
+04:52 after that, you learned how to use comments in requirements files 
+04:55 and then you learned how you can make your requirements files 
+04:58 easier to understand by splitting the dependencies into first order 
+05:02 and secondary dependencies. 
+05:04 And finally, we did a quick recap on the technique that allows you
+05:07 to split up your development and production dependencies. 
+05:09 If you follow these conventions, and best practices, 
+05:12 it will make it easier for other developers to work with your Python projects. 

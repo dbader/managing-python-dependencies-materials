@@ -1,0 +1,68 @@
+00:01 Before we continue, I want to make sure you actually have 
+00:04 a working pip install at this point, and that it's fully up to date. 
+00:07 So let's talk about installing pip if it's not already on your system 
+00:11 and then also how you can upgrade to the latest version of pip. 
+00:14 So all modern versions of Python 2 and Python 3 
+00:18 are going to include pip by default. 
+00:21 Now of course that doesn't really help you if the pip command doesn't work 
+00:24 in your system right now, so let's talk about what you can do 
+00:27 if pip is not available on your system yet. 
+00:31 The first option to get a working pip install on your system 
+00:34 would be to upgrade to a more modern version of Python 
+00:37 which is automatically going to include the latest version of pip. 
+00:40 Now, this would be my preferred option, but of course, 
+00:44 if you're working with older legacy versions of Python 
+00:47 and you have a bunch of code running on them already, 
+00:50 then that isn't really the best option. 
+00:53 So, option 2 would be to add pip to your existing Python install,
+00:57 and that is definitely possible, I am going to show you how to do that now. 
+01:01 So in a nutshell, on Mac OS and Windows, 
+01:04 you would have to download a so called bootstrap script, called get-pip.py. 
+01:09 And you would download that through a browser 
+01:12 or through a command line tool like perl, 
+01:15 and once you've downloaded the get pip script, 
+01:18 you would run it with the Python interpreter. 
+01:21 So you would just go to the terminal and run something like Python get-pip.py 
+01:25 and the get pip script would then automatically install 
+01:28 and set up pip on your system. 
+01:31 Now, on most versions of Linux, 
+01:34 especially if you're using a version based on debian Linux like Ubuntu, 
+01:37 you would actually go through the system package manager to install pip. 
+01:41 To do that, you would first run a command like sudo apt update 
+01:45 to refresh your system's package manger and then you would follow up 
+01:49 with sudo apt install python-pip, and running that command 
+01:54 would add pip to your existing Python install. 
+01:57 Now adding pip to an existing Python install is a little bit fiddly, 
+02:01 there are a couple of edge cases you need to look out for, 
+02:05 one resource that I can recommend to learn more 
+02:07 about how to do this, is the Python packaging guide. 
+02:11 You can find it at packaging.python.org.
+02:15 Let's make sure you're running an up to date version of pip on your system. 
+02:18 Modern versions of Python will always include the latest pip version
+02:22 that came out when the Python release was prepared. 
+02:25 But, pip and Python are actually fully independent, 
+02:29 so you can update pip without updating Python for example. 
+02:33 Depending on the operating system that you're on, 
+02:36 the steps you need to take to update pip are slightly different. 
+02:40 On Mac OS and Windows you would typically just use the pip command 
+02:44 to tell pip to upgrade itself, and I am going to give you 
+02:47 a live demo of how to do that shortly. 
+02:50 On a Linux system where you are using the system package manager 
+02:54 to manage your Python install, you would typically upgrade pip through that, 
+02:58 so you wouldn't actually use the pip command to upgrade pip 
+03:01 but you would just tell the system package manager to update your install of pip.
+03:06 I am going to give you a live demo of how that upgrade process works. 
+03:10 So I am back here in my Mac OS terminal 
+03:14 and I've prepared this command here, 
+03:17 so I am running this command, sudo pip install-- upgrade pip setup tools. 
+03:23 And what this is going to do, it's basically telling pip to upgrade itself. 
+03:28 Set up tools here is just another dependency for pip 
+03:31 and part of the package management system in Python. 
+03:35 So typically, you would update both of them at the same time. 
+03:38 I am going to go ahead and run this command now, 
+03:41 so because I am running this with sudo, I need to enter my account password, 
+03:44 okay, so this worked, and what pip is telling us here is that 
+03:48 essentially everything is up to date. 
+03:51 So any time you want to update pip to the latest version in the future, 
+03:54 you would just rerun that command, and then if there is an update 
+03:57 pip would install it and upgrade itself to the latest version. 
