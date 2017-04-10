@@ -23,7 +23,7 @@
 01:17 From personal experience, I know that this can help avoid a lot of trouble. 
 01:21 When it comes to naming your requirements files 
 01:26 the most popular choice seems to be requirements.txt 
-01:30 and then also requirements-def.txt file for those development dependencies. 
+01:30 and then also requirements-dev.txt file for those development dependencies. 
 01:36 Other popular choices for requirements files names, 
 01:39 include requirements.pip or requirements.lock but really, 
 01:44 this is just a naming convention and those files would function 
@@ -43,7 +43,7 @@
 02:32 serve like a Python comment and then all text behind that is going to be ignored. 
 02:37 It's a great idea to use comments in your requirements files, 
 02:42 for example, you could use them to explain the difference 
-02:45 between your requirements.txt file and the requirements-def.txt file, 
+02:45 between your requirements.txt file and the requirements-dev.txt file, 
 02:50 this will be helpful for any developer working with the project in the future. 
 02:55 Or you could leave a comment on a specific dependency 
 02:57 to explain your choice or to explain why a specific version is needed, 
