@@ -12,7 +12,7 @@
 00:39 and use those other packages and other libraries to get the job done. 
 00:44 So maybe you don't want to reimplement some function like HTTP downloads 
 00:49 and you program would just use that in a library 
-00:52 and these packages super library and other dependency, 
+00:52 and these packages "super library" and "other dependency", 
 00:55 they would be called dependencies of my program in this case. 
 00:59 Of course, not only can your programs have dependencies, 
 01:05 but the dependencies of you programs can have dependencies again, 
@@ -20,7 +20,7 @@
 01:14 or you could also think of them as dependencies of dependencies 
 01:17 or secondary dependencies. 
 01:20 So let's take a look at our "my program" example. 
-01:24 So in this case, we said my program has two direct dependencies 
+01:24 So in this case, we said "my program" has two direct dependencies 
 01:27 and that will be "super library" and "other dependency", 
 01:31 now what you can see here is that "super library" and "other dependency" itself,
 01:36 actually have dependencies again, 
