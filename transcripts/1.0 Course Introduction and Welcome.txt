@@ -30,7 +30,7 @@
 01:49 I run a number of Python projects and I've also been a speaker 
 01:53 at various conferences around the world. 
 01:56 If you want some more Python learning resources, 
-01:58 check out my website at dbador.org 
+01:58 check out my website at dbader.org 
 02:01 I've got tons more tutorials and videos that will help you master Python.
 02:05 Alright, enough about me, let's take a look at the course curriculum. 
 02:08 Right now, you're in the first module on the course 
@@ -45,7 +45,7 @@
 02:39 Next, you'll learn how to set up reproducible environment and application deploys. 
 02:44 And finally, in the sixth module 
 02:48 there will be the course conclusion and a quick recap. 
-02:51 That is the course curriculum. 
+02:51 That's the course curriculum.
 02:54 Now, this will be a really practical course, 
 02:57 in each module you'll encounter a mixture of slight base presentations 
 03:01 and hands on life demos, so you can see and follow along with the exact workflows
