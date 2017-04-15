@@ -1,5 +1,5 @@
 00:02 Now that you have a good idea about how requirements files work, 
-00:05 and how you can leverage them to organize your Python dependencies, 
+00:05 and how you can leverage them to organize your Python dependencies, p
 00:09 let's talk about some best practices 
 00:11 for structuring and organizing your requirements files. 
 00:14 When it comes to version specifiers, it's a good idea to use 
@@ -17,7 +17,7 @@
 00:56 Now it may make sense to go without a version specifier 
 01:00 for some development dependencies, 
 01:02 for example, if you're using a third party debugger, 
-01:05 like ipdb or pdb++ it can make sense to leave that unpinned 
+01:05 like ipdb or pdbpp it can make sense to leave that unpinned 
 01:10 so that you can always work with the latest version. 
 01:13 Personally, I am leaning towards pinning as many packages as possible. 
 01:17 From personal experience, I know that this can help avoid a lot of trouble. 
@@ -64,7 +64,7 @@
 03:46 that I didn't install directly through pip install 
 03:49 but they were installed because a direct dependency required them. 
 03:53 For example here, if you pip install Flask it will bring in the
-03:57 jinja 2 templating library and also the werkzeug library. 
+03:57 Jinja2 templating library and also the Werkzeug library. 
 04:01 So my typical workflow here would be to capture all dependencies 
 04:05 using the pip freeze command and then go through them 
 04:08 in an editor to split them into direct dependencies 

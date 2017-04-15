@@ -13,7 +13,7 @@
 00:40 so that we're back in the global environment, 
 00:42 and then all you need to do is delete this venv folder. 
 00:46 So, what I am going to do here is I am going to delete it 
-00:49 using the rem command and you always want to be careful 
+00:49 using the rm command and you always want to be careful 
 00:52 when you are running this command just as a word of warning, 
 00:55 because you can easily delete a bunch of stuff that maybe you don't want to delete. 
 01:00 So it might be easier for you to actually go into a file manager 

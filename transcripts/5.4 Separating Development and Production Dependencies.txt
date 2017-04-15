@@ -65,10 +65,10 @@
 03:49 what is going on in this file, and I think this is really helpful. 
 03:52 Now these two requirements files cover the two usecases we discussed earlier. 
 03:56 So if a developer wants to set this up on a new machine, 
-03:59 they would clone the repository and then run pip install-r requirements-dev.txt
+03:59 they would clone the repository and then run pip install -r requirements-dev.txt
 04:05 and this brings in all of the development dependencies, 
 04:09 but every time the application gets deployed onto a production system, 
-04:13 all that happens is a pip install-r requirements.txt 
+04:13 all that happens is a pip install -r requirements.txt 
 04:18 so that only the production dependencies are brought in. 
 04:23 If you're building a web application this workflow is specifically supported 
 04:27 by platforms like Heroku, so what Heroku does 

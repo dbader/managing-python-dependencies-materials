@@ -36,4 +36,4 @@
 02:13 and this works for packages 
 02:15 and also for different versions of the Python interpreter. 
 02:18 So you can think of these virtual environments 
-02:21 as individual sand boxes for each project.
+02:21 as individual sandboxes for each project.

@@ -14,7 +14,7 @@
 00:43 I am going to run the pip list command. 
 00:46 You can see here that this just contains the internals for pip 
 00:51 and there are no third party packages here. 
-00:54 Pip freeze is the magic incantation for creating these requirements files. 
+00:54 pip freeze is the magic incantation for creating these requirements files. 
 00:59 Now watch what happens when I run pip freeze on a virtual environment 
 01:02 without third party packages. That is right, nothing happens. 
 01:07 Because there is nothing for pip to freeze. 
@@ -76,7 +76,7 @@
 04:47 Please note that the requirements file only specifies third party packages 
 04:53 and their version numbers, so this is not going to specify 
 04:56 exactly which version of the Python interpreter to use for example. 
-05:01 Pip freeze is the most important ingredient for achieving repeatability, 
+05:01 pip freeze is the most important ingredient for achieving repeatability, 
 05:06 so with pip freeze you can capture all dependencies of your programs 
 05:10 including secondary dependencies and their exact version numbers. 
 05:14 So it's really important to capture the secondary dependencies 
