@@ -20,4 +20,4 @@
 01:16 Using requirements files a Python environment can be reproduced 
 01:20 in exactly the same way on a different machine or for different developer, 
 01:26 or even just in a different directory on your local machine. 
-01:29 They are a key bits for achieving repeatability in your Python built environments. 
+01:29 They are a key piece for achieving repeatability in your Python built environments. 
