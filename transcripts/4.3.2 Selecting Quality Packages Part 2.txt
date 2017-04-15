@@ -40,7 +40,7 @@
 02:07 some example usage, how someone could set up a development environment,
 02:11 some link to a change log, and then also license and author info, 
 02:16 you can check out the full article in the link that you see here. 
-02:24 Now let's go back to the Fequests README. I said that I'd like to know 
+02:24 Now let's go back to the Requests README. I said that I'd like to know 
 02:28 under which license a library was published, so let's find that out now. 
 02:31 Usually where you can find that information is in a license file, 
 02:34 at the root of the repository. 
