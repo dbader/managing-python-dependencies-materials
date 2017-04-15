@@ -18,7 +18,7 @@
 01:09 that I used in the previous example, 
 01:12 now I am going to use the requirements.txt file 
 01:15 to reinstall all of these dependencies in their exact same versions listed here. 
-01:19 The command you need for that is pip install-r 
+01:19 The command you need for that is pip install -r 
 01:24 and then you pass the name of the requirements file, 
 01:28 I am going to go ahead and run this now. 
 01:33 As you can see here, this went over 
@@ -38,7 +38,7 @@
 02:18 The first step, happens during ongoing development 
 02:22 where you install necessary dependencies as you're working on your program. 
 02:26 For example, you might decide to install the Requests package 
-02:32 because you need to support http downloads in your program. 
+02:32 because you need to support HTTP downloads in your program. 
 02:35 So you would just go ahead and do a pip install requests to install that package. 
 02:39 And when you're ready to deploy your program 
 02:42 or even if you just need to take a snapshot to send to git 
