@@ -86,11 +86,11 @@
 05:50 You just learned how you can install packages from a package repository like PyPi, 
 05:55 but pip also supports other sources, for example, 
 06:00 you can install packages directly from git and other version control systems, 
-06:04 here is what this would look like for installing a package that is hosted on Github, 
+06:04 here is what this would look like for installing a package that is hosted on GitHub, 
 06:09 you would pass a url pointing to a git repository to the pip install command. 
 06:14 And you can even control which branch 
 06:17 or a specific commit in that repository you want to install. 
-06:20 Here are a few examples that install the Requests library directly from Github. 
+06:20 Here are a few examples that install the Requests library directly from GitHub. 
 06:26 In the first example, I am putting the at master specifier, 
 06:31 to install the latest version of Requests directly from its master branch on git. 
 06:37 In the second example, I am using a commit hash specifier 
