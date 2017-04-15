@@ -4,7 +4,7 @@
 00:10 Now, let's talk about Python package repositories. 
 00:14 Python packages are collected in so called software repositories. 
 00:18 The biggest, or official software repository in Python is called PyPi. 
-00:23 It's also sometimes called The Cheese Shop, 
+00:23 It's also sometimes called the "Cheese Shop", 
 00:27 because Python developers just love their Monty Python references. 
 00:32 Developers can register for a free PyPi account 
 00:35 and then submit new packages to the repository. 
@@ -27,7 +27,7 @@
 01:44 you can see here what was updated. 
 01:47 And of course, one of the most important parts of the site here is the search box. 
 01:51 So into the search box, you can enter keywords 
-01:54 and basically do a full tech search on the descriptions 
+01:54 and basically do a full text search on the descriptions 
 01:58 and the metadata for the packages available on PyPi, 
 02:01 so you've probably heard of the really popular Requests package, 
 02:05 which is a HTTP download library, so I am going to go ahead 
