@@ -50,9 +50,9 @@
 02:48 checking out all the packages that are listed there. 
 02:51 Another option would be just to run a quick Google search 
 02:55 for two to five relevant keywords, imagine you are looking for a way 
-02:59 to upload files to Amazon's s3 service using Python. 
+02:59 to upload files to Amazon's S3 service using Python. 
 03:03 Here is what I would do, so for that, I just open up Google 
-03:06 and then I would probably search for something like s3 upload Python, 
+03:06 and then I would probably search for something like S3 upload Python, 
 03:10 you know, very focused keywords and just kind of sprinkle 
 03:14 the minimal set of keywords that I could think about, and I just search for that. 
 03:19 And then the results here are going to give me a pretty good overview, 
@@ -66,14 +66,14 @@
 03:48 so the fact that we're already seeing this result is a pretty good sign. 
 03:53 Honestly, I found that a quick Google search can really help you out here, 
 03:56 it's often digging up the right content immediately pointing you 
-04:00 to results on stack overflow or on forums like reddit or hacker news. 
+04:00 to results on Stack Overflow or on forums like Reddit or Hacker News. 
 04:04 So I usually do that really early on in my research process, 
 04:07 when I am looking for a new Python package. 
-04:10 You've already seen that I looked at a stack overflow result here,
-04:14 so stack overflow is another great site you can use 
+04:10 You've already seen that I looked at a Stack Overflow result here,
+04:14 so Stack Overflow is another great site you can use 
 04:18 to find recommendations for Python packages, 
-04:21 if you haven't used stack overflow before, 
-04:24 it's basically a question answer side for developers. 
+04:21 if you haven't used Stack Overflow before, 
+04:24 it's basically a question answer site for developers. 
 04:27 And you can search it as well, so I am just going to punch in the same keywords 
 04:31 that I previously searched on Google, just to see what comes up, 
 04:34 so by default, this will be sorted by relevance, which is kind of an opaque measure, 
@@ -88,18 +88,18 @@
 05:02 so again, this will be a pretty good indicator that I should really check out 
 05:06 this boto library because it just keeps popping up again and again.
 05:09 Another great recommendation for finding quality Python packages
-05:15 are community forums like reddit or hacker news, 
+05:15 are community forums like Reddit or Hacker News, 
 05:18 and sometimes you can also use Twitter like that, 
 05:21 let's take a look at those now. 
 05:24 Reddit is a community forum website that has a pretty large Python community, 
-05:27 you can find it at reddit.com/r/python. 
+05:27 you can find it at reddit.com/r/python 
 05:32 And reddit has a search feature as well, 
 05:34 again, what I would do here is I would punch in the same keywords 
 05:37 and then I would limit my search.
 05:41 In this case, we could probably drop the Python 
 05:43 because we're just searching the Python forum. 
-05:46 So, anything s3 related will pretty much be about Python. 
-05:50 Alright, let's see what w got here, so this looks pretty helpful already, 
+05:46 So, anything S3 related will pretty much be about Python. 
+05:50 Alright, let's see what we got here, so this looks pretty helpful already, 
 05:53 one interesting bit here is that you can see when the question was submitted, 
 05:58 or when the form thread was created. 
 06:01 So you want to make sure you are not looking at super old content 
@@ -113,34 +113,34 @@
 06:26 and then other people can respond to that discussion 
 06:29 and I can read what they have to say and that is going to give me 
 06:32 a pretty good idea of whether or not that library might be the right choice for me. 
-06:36 Another helpful community forum is hacker news. 
-06:40 Now, by default hacker news doesn't have a search function built in, 
+06:36 Another helpful community forum is Hacker News. 
+06:40 Now, by default Hacker News doesn't have a search function built in, 
 06:44 but you can use a third party search at hn.algolia.com 
 06:49 that can do a full tech search on comments and stories inside hacker news. 
-06:53 Again, let's punch in s3 upload Python and see what happens. 
+06:53 Again, let's punch in S3 upload Python and see what happens. 
 06:58 Alright, so looking at these results again I see boto popping up here 
 07:01 so this could be interesting, maybe this result is a little bit old, 
 07:05 but again, this could be a good way to fill up that candidate list 
 07:09 and identify libraries that other people recommend and use. 
-07:12 Even if you're not using twitter, 
+07:12 Even if you're not using Twitter, 
 07:15 just the fact that so many people share their thoughts 
-07:17 on twitter all the time, can be pretty powerful 
+07:17 on Twitter all the time, can be pretty powerful 
 07:20 if you're looking for an answer to your programming question, 
 07:23 I know it sounds a little bit crazy but this works more often than you'd think, 
 07:27 so let's try it out, I don't know what is going to happen. 
 07:30 Again, I am searching for the same set of keywords, 
 07:32 and then I am just going to check out some of the responses here, 
-07:36 alright, so sometimes it's going to reference other source material like stack overflow,
+07:36 alright, so sometimes it's going to reference other source material like Stack Overflow,
 07:40 or blog posts, okay, so this looks pretty interesting here, 
-07:44 this guy is talking about a script that uploads stuff to s3, so why don't we check it out. 
+07:44 this guy is talking about a script that uploads stuff to S3, so why don't we check it out. 
 07:49 So just looking at the code here, it looks like this guy is not using a specific library 
-07:53 to talk to s3, but he is using the command line tool, this aws s3 command, 
+07:53 to talk to S3, but he is using the command line tool, this aws s3 command, 
 07:58 so this could be another option for us to research now, maybe it's a good choice, 
 08:01 I don't know, I know this process is a little bit time consuming 
 08:04 but it's really impressive what this process can dig up. 
 08:08 If you do this for an hour or two, you're going to be pretty much an expert 
 08:11 on what's out there in terms of libraries that could help you with this job. 
-08:1408:19 If you've searched all these sites and you're still not happy 
+08:18 If you've searched all these sites and you're still not happy 
 08:22 with this candidate package list that you've built up, 
 08:25 then it might make sense to search PyPi directly, 
 08:28 personally, I find it a little bit hard to find stuff on PyPi 
@@ -148,7 +148,7 @@
 08:37 But it might still make sense to spend a few minutes on that 
 08:40 and see if you can dig up something useful. 
 08:44 Now, another option to get those candidate packages would be 
-08:47 to actually ask a question on stack overflow or reddit, 
+08:47 to actually ask a question on Stack Overflow or Reddit, 
 08:51 so on all of these sites you can create a free account, 
 08:55 and just start asking questions, of course, you want to be mindful 
 08:58 of questions that people have asked in the past, 
@@ -174,7 +174,7 @@
 10:09 and then I think they are really good indicator, 
 10:11 but right now, we'll have to go with something else. 
 10:14 Another good popularity indicator would be 
-10:17 just the number of Google results and reddit results and stack overflow results 
+10:17 just the number of Google results and Reddit results and Stack Overflow results 
 10:20 or recommendations you find for a given package. 
 10:24 And often, this step of the research process 
 10:26 happens in combination with the first one, 
@@ -182,9 +182,9 @@
 10:30 you can take mental notes of which packages show up frequently. 
 10:34 And this could be really valuable information, 
 10:36 when you have to make a decision which one you are going to use.
-10:39 If a package is hosted on github, you could also check out their github page 
-10:43 and see how many stars they have on github, 
-10:46 so the star system on github is a pretty simple voting system 
+10:39 If a package is hosted on GitHub, you could also check out their GitHub page 
+10:43 and see how many stars they have on GitHub, 
+10:46 so the star system on GitHub is a pretty simple voting system 
 10:49 where people can favorite or star repositories.
 10:52 Now, if you are thinking about installing a library 
 10:55 that has let's say 5 thousand or 10 thousand stars, it's pretty much a no brainer. 
@@ -212,7 +212,7 @@
 12:17 it looks like it has automated tests which is always a great thing to see, 
 12:22 and the project maintainer is also tracking test code coverage. 
 12:25 Here on the left you can see that the page has 
-12:30 this embedded github stars indicator, and as you can tell, 
+12:30 this embedded GitHub stars indicator, and as you can tell, 
 12:33 the library has a high number of stars here which is usually a good sign. 
 12:36 What I like here as well is that the page starts with a concrete example 
 12:40 of what you can do with the library and what it looks like to use it. 
