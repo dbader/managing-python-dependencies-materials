@@ -41,7 +41,7 @@
 02:22 If you can develop the skills to find and identify quality third party packages, 
 02:26 and you can start leveraging those in your own programs, 
 02:29 your productivity will shoot through the roof. 
-02:32 because you will be able to avoid having to reinvent the wheel all the time, 
+02:32 Because you will be able to avoid having to reinvent the wheel all the time, 
 02:36 and you will be able to build your applications using these 
 02:39 freely available building blocks and that will make you much faster,
 02:43 much more effective and much more productive as a Python developer. 
