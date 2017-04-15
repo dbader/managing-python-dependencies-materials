@@ -19,14 +19,14 @@
 01:01 So in a nutshell, on Mac OS and Windows, 
 01:04 you would have to download a so called bootstrap script, called get-pip.py. 
 01:09 And you would download that through a browser 
-01:12 or through a command line tool like perl, 
+01:12 or through a command line tool like curl, 
 01:15 and once you've downloaded the get pip script, 
 01:18 you would run it with the Python interpreter. 
-01:21 So you would just go to the terminal and run something like Python get-pip.py 
+01:21 So you would just go to the terminal and run something like python get-pip.py 
 01:25 and the get pip script would then automatically install 
 01:28 and set up pip on your system. 
 01:31 Now, on most versions of Linux, 
-01:34 especially if you're using a version based on debian Linux like Ubuntu, 
+01:34 especially if you're using a version based on Debian Linux like Ubuntu, 
 01:37 you would actually go through the system package manager to install pip. 
 01:41 To do that, you would first run a command like sudo apt update 
 01:45 to refresh your system's package manger and then you would follow up 
@@ -54,7 +54,7 @@
 03:06 I am going to give you a live demo of how that upgrade process works. 
 03:10 So I am back here in my Mac OS terminal 
 03:14 and I've prepared this command here, 
-03:17 so I am running this command, sudo pip install-- upgrade pip setup tools. 
+03:17 so I am running this command, sudo pip install --upgrade pip setuptools 
 03:23 And what this is going to do, it's basically telling pip to upgrade itself. 
 03:28 Set up tools here is just another dependency for pip 
 03:31 and part of the package management system in Python. 
