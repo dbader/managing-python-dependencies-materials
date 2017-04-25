@@ -7,7 +7,7 @@
 00:17 to get a feel for how popular this library is in the Python community 
 00:21 and how many people are using it. 
 00:23 In step 3, we check out the project homepage as another important quality indicator. 
-00:27 In step 4, we had a look at the project readme, 
+00:27 In step 4, we had a look at the project README, 
 00:29 step 5 answered the question whether or not the project is actively maintained, 
 00:34 then after that, in step 6, we spot check the source code 
 00:38 to get a good feel for the code quality of this library. 

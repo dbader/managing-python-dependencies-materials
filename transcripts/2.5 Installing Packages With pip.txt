@@ -7,7 +7,7 @@
 00:23 Basically, you open a terminal, and you run the pip install command, 
 00:27 passing it the name of the package that you want to install. 
 00:31 And by default, this is going to install packages from the PyPi package repository. 
-00:35 Pip also cashes packages locally, to speed up repeated installs. 
+00:35 Pip also caches packages locally, to speed up repeated installs. 
 00:41 Let's take a look at a quick demo here. 
 00:44 I am in a new terminal session here, and now I am going to walk you 
 00:47 through how to install a Python package using the pip install command line. 
@@ -86,11 +86,11 @@
 05:50 You just learned how you can install packages from a package repository like PyPi, 
 05:55 but pip also supports other sources, for example, 
 06:00 you can install packages directly from git and other version control systems, 
-06:04 here is what this would look like for installing a package that is hosted on github, 
+06:04 here is what this would look like for installing a package that is hosted on GitHub, 
 06:09 you would pass a url pointing to a git repository to the pip install command. 
 06:14 And you can even control which branch 
 06:17 or a specific commit in that repository you want to install. 
-06:20 Here are a few examples that install the requests library directly from github. 
+06:20 Here are a few examples that install the Requests library directly from GitHub. 
 06:26 In the first example, I am putting the at master specifier, 
 06:31 to install the latest version of Requests directly from its master branch on git. 
 06:37 In the second example, I am using a commit hash specifier 

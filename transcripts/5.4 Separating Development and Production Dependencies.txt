@@ -23,7 +23,7 @@
 01:17 and requirements.txt for the production dependencies. 
 01:20 There is a feature in pip that allows you to link up requirements files 
 01:23 so you can make this workflow very convenient for developers. 
-01:27 They only need to remember to install the requirements-def file 
+01:27 They only need to remember to install the requirements-dev file 
 01:31 and that will automatically pull in 
 01:33 and install all of the production dependencies as well, 
 01:36 let's take a look at a real world example for this technique. 
@@ -33,7 +33,7 @@
 01:50 the exact same pattern for managing their development in production dependencies. 
 01:55 So right now, I am in the root folder of this repository here and when I scroll down, 
 01:59 I'll find those two requirements files, so there is a requirements.txt 
-02:05 and then there is also a requirements-def.txt. 
+02:05 and then there is also a requirements-dev.txt. 
 02:09 And this is exactly the split that I talked about earlier, 
 02:13 so when you look at requirements.txt you can see that this includes
 02:18 all of the production dependencies in their exact versions, 
@@ -44,7 +44,7 @@
 02:33 So, these are just the production dependencies that would be necessary
 02:36 to run the application in a production environment, 
 02:38 now let's look at the other requirements files. 
-02:41 So there is also this requirements-def.txt and what this does, 
+02:41 So there is also this requirements-dev.txt and what this does, 
 02:47 it first of all pulls in the production requirements
 02:52 and then it installs a bunch of additional development dependencies, 
 02:56 so it pulls in a testing framework and the mark module, 
@@ -65,10 +65,10 @@
 03:49 what is going on in this file, and I think this is really helpful. 
 03:52 Now these two requirements files cover the two usecases we discussed earlier. 
 03:56 So if a developer wants to set this up on a new machine, 
-03:59 they would clone the repository and then run pip install-r requirements-dev.txt
+03:59 they would clone the repository and then run pip install -r requirements-dev.txt
 04:05 and this brings in all of the development dependencies, 
 04:09 but every time the application gets deployed onto a production system, 
-04:13 all that happens is a pip install-r requirements.txt 
+04:13 all that happens is a pip install -r requirements.txt 
 04:18 so that only the production dependencies are brought in. 
 04:23 If you're building a web application this workflow is specifically supported 
 04:27 by platforms like Heroku, so what Heroku does 

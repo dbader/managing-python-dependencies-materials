@@ -9,10 +9,10 @@
 00:35 that you can use in your own projects. 
 00:38 And you also know how to set up repeatable development environments 
 00:41 and application deployments.
-00:44  All of those are important skills for any professional Python developer. 
+00:44 All of those are important skills for any professional Python developer. 
 00:48 Programming Python is such a wide field and there is tons more to learn. 
 00:54 So if you are interested in getting more Python learning resources, 
-00:57 check out my website at dbader.org. 
+00:57 check out my website at dbader.org 
 01:00 There you can find many more videos and tutorials 
 01:03 that will help you on your journey toward mastering Python. 
 01:07 Thanks so much for going through the course, 

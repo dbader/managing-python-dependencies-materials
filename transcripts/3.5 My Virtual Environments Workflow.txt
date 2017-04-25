@@ -1,7 +1,7 @@
 00:00 There are a few command line tricks you can use 
 00:03 to make your life easier when you're working with these virtual environments. 
-00:06 So I want to show you a quick walkthrough the virtual env setup 
-00:10 or the virtual env workflow, that I use personally for working on Python projects. 
+00:06 So I want to show you a quick walkthrough the virtualenv setup 
+00:10 or the virtualenv workflow, that I use personally for working on Python projects. 
 00:15 So I am in a fresh terminal session here and let's pretend I want to work
 00:20 on a project called test project, the one we created earlier. 
 00:24 So the first thing I would do is to switch into the project folder, 
@@ -29,12 +29,12 @@
 01:51 is it's going to deactivate the previous virtual environment 
 01:54 and then activate the new one. 
 01:56 So I don't have to type deactivate first, and then of course,
-02:00 I could do m work and just deactivate the virtual environment again. 
+02:00 I could do my work and just deactivate the virtual environment again. 
 02:04 So I am using these ae and de shortcuts or aliases to make it a little bit easier 
 02:09 to work with virtual environments from the command line. 
 02:12 And now I am going to show you how those work behind the scenes. 
 02:15 So what I have done here is I've modified the config file from my shell, 
-02:20 I am using bash so this would be bash profile. 
+02:20 I am using bash so this would be ~/.bash_profile
 02:23 And I've added these two lines here, that configure an ae and a de alias.
 02:28 Here is what the ae alias does. 
 02:32 It tries to deactivate any virtual environments that I am already in, 

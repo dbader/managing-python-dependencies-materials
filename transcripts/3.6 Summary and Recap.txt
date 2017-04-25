@@ -16,5 +16,5 @@
 00:43 So in a nutshell, a virtual environment allows you to use 
 00:46 different versions of the same package, 
 00:48 and different versions of Python depending on a project that you're working on.
-00:54  And as a best practice, all of your Python projects 
+00:54 And as a best practice, all of your Python projects 
 00:57 should use virtual environments to store their dependencies. 

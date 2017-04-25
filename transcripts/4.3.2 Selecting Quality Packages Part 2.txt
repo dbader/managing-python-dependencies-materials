@@ -1,8 +1,8 @@
 00:01 Not all Python packages are going to have a dedicated project homepage. 
-00:04 But what every project should have is some form of readme file, 
-00:09 that introduces you to the project. So I always check those two. 
+00:04 But what every project should have is some form of README file, 
+00:09 that introduces you to the project. So I always check those too. 
 00:13 And what I like to see here, is that 
-00:16 I want the readme to cover the basics of the project, 
+00:16 I want the README to cover the basics of the project, 
 00:19 what does the library do, and how do I install it. 
 00:23 You could learn a lot about the quality of a library,
 00:25 by looking at how the maintainers communicate the value that the library provides, 
@@ -12,39 +12,39 @@
 00:40 who the author is, is it a group of people,
 00:43 is it a company, is it an individual contributor, 
 00:46 what have they done in the past, and do they seem trustworthy? 
-00:49 Let's take a look at a real project readme now. 
-00:53 Alright, I am going to try and find the readme file for the Reqests library now. 
+00:49 Let's take a look at a real project README now. 
+00:53 Alright, I am going to try and find the README file for the Reqests library now. 
 00:57 So, typically, what you'd be looking for is a link to the project source repository 
-01:02 so it already looks like this is hosted on github here, 
+01:02 so it already looks like this is hosted on GitHub here, 
 01:05 so I am just going to look for a link.
-01:09 Alright, there we go, requests at github, 
-01:12 so that should be the link to the github project 
-01:14 where we can check out the project readme, yes, this is it, 
-01:16 so when I scroll down this is where github displays the readme file, 
-01:19 and for other source control websites like bitbucket, 
+01:09 Alright, there we go, requests at GitHub, 
+01:12 so that should be the link to the GitHub project 
+01:14 where we can check out the project README, yes, this is it, 
+01:16 so when I scroll down this is where GitHub displays the README file, 
+01:19 and for other source control websites like Bitbucket, 
 01:22 they will either display the readme in the same fashion 
-01:25 or you can view it by finding the readme file and then clicking directly on that. 
+01:25 or you can view it by finding the README file and then clicking directly on that. 
 01:29 Now the first thing that I can see here is that this looks really similar 
 01:32 to the project homepage which isn't a bad thing, 
-01:35 I mean, this contains all of the information that I wanted to get out of the readme 
+01:35 I mean, this contains all of the information that I wanted to get out of the README 
 01:38 and it looks like it's really well structured and nicely formatted. 
 01:41 So this is great, this tells me how to install the library, and it looks really simple, 
 01:46 it's pointing me to the documentation 
 01:48 and it also tells me how to contribute to the project. 
-01:52 If you're wondering what should go into a great readme file, 
+01:52 If you're wondering what should go into a great README file, 
 01:54 I wrote this article a while ago,
-01:56 about how you can write a great readme for a github project, 
+01:56 about how you can write a great README for a github project, 
 01:59 I am covering a number of things here that in my opinion 
-02:01 should go into a great readme, for example, it should talk about 
+02:01 should go into a great README, for example, it should talk about 
 02:05 what the project actually does, how to install it, 
 02:07 some example usage, how someone could set up a development environment,
 02:11 some link to a change log, and then also license and author info, 
 02:16 you can check out the full article in the link that you see here. 
-02:24 Now let's go back to the requests readme file. I said that I'd like to know 
+02:24 Now let's go back to the Requests README. I said that I'd like to know 
 02:28 under which license a library was published, so let's find that out now. 
 02:31 Usually where you can find that information is in a license file, 
 02:34 at the root of the repository. 
-02:37 So this tells us that requests is under the Apache license, 
+02:37 So this tells us that Requests is under the Apache license, 
 02:39 a popular open source license; if you're wondering 
 02:42 what the most common open source licenses are, 
 02:44 and what their terms are there is a really great website you should check out. 
@@ -56,27 +56,27 @@
 03:09 without actually having to drill down into the nitty gritty details. 
 03:13 Another thing that I'd like to know is who the authors are, 
 03:17 who wrote a library. Now, typically, in an open source library, 
-03:21 you can find an authors file that will list all the contributors, 
+03:21 you can find an AUTHORS file that will list all the contributors, 
 03:24 again here with Requests you can get a really quick overview 
 03:29 of who the core maintainers are, and then there was apparently 
 03:33 a whole bunch of people who have submitted patches over time, 
 03:36 and this is a great sign because it means you have a project leadership 
 03:39 and then you also have a large group of people who are dedicating patches 
 03:42 and contributions to the project. 
-03:45 We could also check out the github user account that hosts the Request library,
+03:45 We could also check out the GitHub user account that hosts the Request library,
 03:49 and in this case, it's Kenneth Reitz and you can see that Kenneth has
 03:52 a number of very popular libraries in the Python space, 
 03:56 he is working for respectable and well known company 
 03:59 and these are all indicators that Requests is a really great library. 
 04:04 At the end of step 4, maybe the field has narrowed down a little bit further, 
-04:09 every Python library should have a good project readme, 
+04:09 every Python library should have a good project README, 
 04:12 and I find it helpful to familiarize myself with the licensing terms for the project,
 04:17 and the team of people working on or maintaining the library. 
 04:23 In step 5, you're going to make sure that the project is actively maintained. 
 04:27 In my mind, this is one of the most important quality indicators, 
 04:31 now how can you find out if a project is under active development, 
 04:35 usually a great way to find that information is to check out 
-04:39 the project change log and the update history. 
+04:39 the project changelog and the update history. 
 04:42 You could either do that directly on PyPi 
 04:45 or by checking the project source repository,
 04:48 also on the source repository you can usually find a bug tracker for the project. 
@@ -138,9 +138,9 @@
 07:49 This is something that I always try to keep in the back of my head 
 07:52 when I make a decision whether to use one library or another.
 07:55 Alright, let's take a look at what this looks like in practice. 
-08:00 So I am back here looking at the github repository for the Requests library. 
+08:00 So I am back here looking at the GitHub repository for the Requests library. 
 08:05 And that gives me a really easy way to browse through the library source code, 
-08:08 so I don't even have to install it, I can just use the github code viewer 
+08:08 so I don't even have to install it, I can just use the GitHub code viewer 
 08:12 and browse around and I don't need to pull this over into my own editor. 
 08:17 So what I would do here is try and find the main directory 
 08:20 where all the source files live in, and in this case, 
@@ -163,16 +163,16 @@
 09:28 like imagine you have to maintain this code, 
 09:31 personally I would much rather work with code that looks like this, 
 09:34 than some convoluted mess. 
-09:36 And you can see here it seems to adhere to the pep8 formatting style 
+09:36 And you can see here it seems to adhere to the PEP 8 formatting style 
 09:40 which I think is also a good sign 
-09:42 because if you are also using pep8 or something similar, 
+09:42 because if you are also using PEP 8 or something similar, 
 09:45 than this library code is going to look similar to your application code, 
 09:47 which also helps maintenance. 
 09:52 Yeah, so I would say this looks pretty good, let's see if we can find some tests. 
 09:57 Okay, so there is a tests folder here, and again, 
 10:04 it looks like there are whole bunch of tests here, 
 10:06 so let's check out the test_structures, alright, 
-10:10 so they are using py test which is a library that personally I like a lot 
+10:10 so they are using pytest which is a library that personally I like a lot 
 10:13 so this would be a good sign for me, first of all I love the fact 
 10:18 they have an automated test suite here and just glancing over those tests, 
 10:26 I mean, they seem pretty reasonable, right, 
@@ -203,7 +203,7 @@
 11:55 Or you might write a couple of small programs 
 11:58 just to get a feel for how the library works, 
 12:01 so for example, with Requests, maybe I would write a little program 
-12:05 that downloads a file over http and then I would try and implement 
+12:05 that downloads a file over HTTP and then I would try and implement 
 12:09 the same example with a different library to get a feel 
 12:12 for what the strength and weaknesses are of each of them. 
 12:16 Now actually, installing the library and then trying it out is 
